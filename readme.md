@@ -4,15 +4,15 @@
 
 ## Learning Goals
 
-In this Module Exercise you will apply all the concepts you have been learning:
+In this Module Exercise you will apply all the concepts you have been learning, such as:
 
-- Use different HTML tags.
-- Structure your HTML page with **Block Elements**.
-- Add content to your HTML page with **Inline Elements**.
+- Using different HTML tags.
+- Structuring your HTML page with **Block Elements**.
+- Adding content to your HTML page with **Inline Elements**.
 
-## Requirements
+## Requirements 
 
-- Go to the [HTML module exercise repository](https://github.com/ironhack-labs/lab-html-cloning-medium) in Github.
+- Go to the [HTML module exercise repository](https://github.com/ironhack-labs/lab-html-cloning-medium) on Github.
 - Click on the button "Clone or download" and a window will appear:
   ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3cd92839c499fe04b53a5bbee5ce2dfe.png)
 - Click the button "Download as zip"
@@ -25,11 +25,15 @@ The `starter-code` folder contains an `index.html` file with the main structure 
 
 ### Instructions
 
-In this exercise, you will clone a [Medium](https://medium.com/) article. Medium is a site that contains very interesting articles of several topics, we highly recommend you to follow some of the authors if you have interest in [Digital Design](https://medium.com/topic/digital-design), [JavaScript](https://medium.com/tag/javascript), [Bitcoins](https://medium.com/tag/bitcoin), or [Artificial Intelligence](https://medium.com/tag/artificial-intelligence).
+#### Introduction
 
-In this exercise, you will clone the [8 Things Every Person Should Do Before 8 a.m.](https://medium.com/the-mission/8-things-every-person-should-do-before-8-a-m-cc0233e15c8d) article. This is a two-part article, where we are going to clone first of all the HTML Structure. In the second part of the exercise, we are going to style this HTML structure.
+In this exercise, you will clone a [Medium](https://medium.com/) article. Medium is a site that contains interesting articles about a variety of topics, we highly recommend you to follow some of the authors if you have interest in [Digital Design](https://medium.com/topic/digital-design), [JavaScript](https://medium.com/tag/javascript), [Bitcoins](https://medium.com/tag/bitcoin), or [Artificial Intelligence](https://medium.com/tag/artificial-intelligence).
 
-As you can see, the article is very long. We want you to get focus on the HTML structure, not in the content. In each article section, it's enough to copy-paste three paragraphs of content, not the whole content. For example, in the following section you have to add just the paragraphs in the red box:
+In this exercise, you will clone the [8 Things Every Person Should Do Before 8 a.m.](https://medium.com/the-mission/8-things-every-person-should-do-before-8-a-m-cc0233e15c8d) article. This is a two-part article, where we are going to clone first of all the HTML Structure. Later in the second part, we are going to style this HTML structure.
+
+#### Setup
+
+As you can see, the article is very long. We want you to get focus on the HTML structure, not on the content. In each article section, **it's enough to copy-paste three paragraphs of content**, not the all of content. For example, in the following section you have to add just the paragraphs in the red box:
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_de7472368e4d78c834d0df5cdf281a20.png)
 
@@ -37,9 +41,40 @@ As you can see, you just have to add the section's title and the first three par
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_5ff67c9322ec4d409cd80cfa9cdc58e9.png)
 
-**As you can see, we don't have any kind of styles here, just HTML and text.** The most difficult part of this exercise is try to figure out what you need to structure the article, so in the next part of the exercise you will not find too many problems while styling the article.
+**As you can see, we don't have any kind of styles here, just HTML and text.** To make this easier to visualize, copy and paste the following into your [**Chrome Console**](https://developers.google.com/web/tools/chrome-devtools/console/) (Ctrl + shift + J on Windows / Linux, Cmd + Option + J on Mac), and hit enter:
 
-Our recommendation is: try to avoid thinking in the composition, just in the text and images. Try to identify the different sections, and add `id`'s to each `<div>`, `<section>`, `<article>`, or `<header>` block elements to identify this elements. i.e.:
+```javascript
+// disable all externally linked stylesheets
+for (var i = document.styleSheets.length - 1; i >= 0; i--) {
+    document.styleSheets[i].disabled = true;
+}
+
+var arAllElements = (typeof document.all != 'undefined') ?
+    document.all : document.getElementsByTagName('*');
+for (var i = arAllElements.length - 1; i >= 0; i--) {
+    var elmOne = arAllElements[i];
+    if (elmOne.nodeName.toUpperCase() == 'STYLE') {
+        // remove <style> elements defined in the page <head>
+        elmOne.parentNode.removeChild(elmOne);
+    } else { 
+        // remove per-element styles and style-related attributes
+        elmOne.setAttribute('style', '');
+        elmOne.setAttribute('size', '');
+        elmOne.setAttribute('face', '');
+        elmOne.setAttribute('color', '');
+        elmOne.setAttribute('bgcolor', '');
+        elmOne.setAttribute('background', '');
+    }
+}
+```
+
+This will make all of the styles disappear!
+
+#### Time to Code
+
+The most difficult part of this exercise is try to figure out what you need to structure the article, and picking the correct *semantic* tags. This will make your job easier in the next exercise when it comes time to styling.
+
+Our recommendation is: try to avoid thinking in the composition, just in the text and images. Try to identify the different sections, and add `id`'s to each `<div>`, `<section>`, `<article>`, or `<header>` block elements to identify these elements. i.e.:
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_53c860ca75220e0d63fc9c424f0ecd1f.png)
 
