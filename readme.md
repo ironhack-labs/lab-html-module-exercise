@@ -10,7 +10,7 @@ In this Module Exercise you will apply all the concepts you have been learning, 
 - Structuring your HTML page with **Block Elements**.
 - Adding content to your HTML page with **Inline Elements**.
 
-## Requirements 
+## Requirements
 
 - Go to the [HTML module exercise repository](https://github.com/ironhack-labs/lab-html-cloning-medium) on Github.
 - Click on the button "Clone or download" and a window will appear:
@@ -27,21 +27,28 @@ The `starter-code` folder contains an `index.html` file with the main structure 
 
 #### Introduction
 
-In this exercise, you will clone a [Medium](https://medium.com/) article. Medium is a site that contains interesting articles about a variety of topics, we highly recommend you to follow some of the authors if you have interest in [Digital Design](https://medium.com/topic/digital-design), [JavaScript](https://medium.com/tag/javascript), [Bitcoins](https://medium.com/tag/bitcoin), or [Artificial Intelligence](https://medium.com/tag/artificial-intelligence).
+In this exercise, you will clone the landing page from the [NPM website](https://www.npmjs.com/).  NPM is a package manager for NodeJs that we will use a lot later in the course.
 
-In this exercise, you will clone the [8 Things Every Person Should Do Before 8 a.m.](https://medium.com/the-mission/8-things-every-person-should-do-before-8-a-m-cc0233e15c8d) article. This is a two-part article, where we are going to clone first of all the HTML Structure. Later in the second part, we are going to style this HTML structure.
+You can see the real page [here](https://www.npmjs.com/).  
+
+
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_62881782971caae2736b5990926e05d9.png)
+
+
+Looking at this picture of the page, we can see that there are quite a few styles being applied to this web page. We have background colors for different parts of the page, different background colors, bold font, centered font, and elements being positioned very deliberately with CSS.  
+
+During this exercise, we will be creating the HTML for this page, without any of the styles.  Don't worry, we are going to come back later and make our page look complete. But for now, the page that we are going to create should look like this
+
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_fb961b15cf7fcd5867273a3e77d3a0cf.png)
+
+
 
 #### Setup
 
-As you can see, the article is very long. We want you to get focus on the HTML structure, not on the content. In each article section, **it's enough to copy-paste three paragraphs of content**, not the all of content. For example, in the following section you have to add just the paragraphs in the red box:
+If you visited the NPM website, you probably noticed that the page is a lot longer than the picture provided in this assignment.  That's okay, we're not going to recreate the whole thing. For this assignment, we will be cloning only the top 4 sections, reflected in the picture provided above.
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_de7472368e4d78c834d0df5cdf281a20.png)
 
-As you can see, you just have to add the section's title and the first three paragraphs. You have also to remember that you just have to add the HTML structure. So, for the image above, the result we want is the following:
-
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_5ff67c9322ec4d409cd80cfa9cdc58e9.png)
-
-**As you can see, we don't have any kind of styles here, just HTML and text.** To make this easier to visualize, copy and paste the following into your [**Chrome Console**](https://developers.google.com/web/tools/chrome-devtools/console/) (Ctrl + shift + J on Windows / Linux, Cmd + Option + J on Mac), and hit enter:
+**It might be hard to get used to the idea of making a version of a web page with no styles, since it doesn't really look like a web site at all.** To make this easier to visualize go to the [NPM website](https://www.npmjs.com/) and copy and paste the following into your [**Chrome Console**](https://developers.google.com/web/tools/chrome-devtools/console/) (Ctrl + shift + J on Windows / Linux, Cmd + Option + J on Mac), and hit enter:
 
 ```javascript
 // disable all externally linked stylesheets
@@ -56,7 +63,7 @@ for (var i = arAllElements.length - 1; i >= 0; i--) {
     if (elmOne.nodeName.toUpperCase() == 'STYLE') {
         // remove <style> elements defined in the page <head>
         elmOne.parentNode.removeChild(elmOne);
-    } else { 
+    } else {
         // remove per-element styles and style-related attributes
         elmOne.setAttribute('style', '');
         elmOne.setAttribute('size', '');
@@ -68,44 +75,51 @@ for (var i = arAllElements.length - 1; i >= 0; i--) {
 }
 ```
 
-This will make all of the styles disappear!
+This will make all of the styles disappear! As you can see, the official website now looks a lot more like the picture of our HTML-only version of the site. This script will work on any web page.  
+
+**To be clear, the goal of this assignment is to clone the picture provided above of our HTML-only version of the page, not the actual page.**
 
 #### Time to Code
 
-The most difficult part of this exercise is try to figure out what you need to structure the article, and picking the correct *semantic* tags. This will make your job easier in the next exercise when it comes time to styling.
+The most difficult part of this exercise is deciding how to structure the page and picking the correct *semantic* tags for the job. Picking the right semantic tags will make your job easier in the next exercise when it comes time to styling.
 
-Our recommendation is: try to avoid thinking in the composition, just in the text and images. Try to identify the different sections, and add `id`'s to each `<div>`, `<section>`, `<article>`, or `<header>` block elements to identify these elements. i.e.:
+Our recommendation is to try to keep it simple. Try to identify the different sections, and add `id`'s or `classes` to each `<div>`, `<section>`, `<ul>`, or `<header>` block elements to identify these elements. i.e.:
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_53c860ca75220e0d63fc9c424f0ecd1f.png)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_689037695dcb47e060b94a695af8b9f1.png)
 
-We could try to represent the header of the article as it follows:
+
+
+
+We could try to represent this header as follows:
 
 ```htmlmixed
+
 <header>
-  <a href="https://medium.com/">
-    <img src="images/medium-logo.png" alt="Medium">
-  </a>
-
-  <a href="https://medium.com/the-mission?source=logo-c46f69768379---b230ea2a6eb8">
-    <img src="images/the-mission-logo.png" alt="The Mission">
-  </a>
-
-  <a href="#">Follow</a>
-
-  <a href="https://twitter.com/TheMissionT" target="_blank">
-    <img src="images/twitter-logo.png" alt="Twitter account">
-  </a>
-
-  <a href="https://facebook.com/TheMissionInc" target="_blank">
-    <img src="images/facebook-logo.png" alt="Facebook account">
-  </a>
-
-  <img src="images/search-logo.png" alt="Search">
-  <img src="images/bell-logo.png" alt="Notifications">
-  <div id="profile-picture"></div>
+    <div class="top-left">
+  <a class = "heart" href="#">♥︎</a>
+  <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+  </div>
+    <ul class = "top-links">
+      <li><a href="#">npm Enterprise</a></li>
+      <li><a href="#">features</a></li>
+      <li><a href="#">pricing</a></li>
+      <li><a href="#">documentation</a></li>
+      <li><a href="#">support</a></li>
+    </ul>
 </header>
+
 ```
 
-The result of this HTML code will be just plain text and images... but don't worry for that, you are going to style this page later on in another exercise :)
+The result of this HTML code won't look like the picture above, it'll look more like this
+
+
+
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7867a5c5ff21731593eac7c0692399c5.png)
+
+
+
+
+**But don't worry, that's okay.  Remember, we will go back later and make our site look official, for now, let's build our ugly wine list!**
+
 
 /Happy coding!
