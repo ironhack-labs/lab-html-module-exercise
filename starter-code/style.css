@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body{
+    font-family: Roboto; Sans-Serif;
+}
+
+h1, h2, h3{
+  font-weight: normal;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  margin-bottom: -5px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.heart{
+  padding: 0 15px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+  bottom: 20px;
+}
+
+header{
+  Background-color: rgb(32, 101, 136);
+  color: white;
+}
+
+header h1{
+  font-size: 3.25em;
+}
+
+.headertop{
+  padding: 20px 0 0 20px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.headertop .ele{
+  float: left;
+}
+
+header article{
+  float: right;
+}
+
+.headertop button{
+  margin:0;
+  height: 52px;
+  width: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgb(31, 82, 111);
+  margin-right: 15px;
+}
+
+.searchbox{
+  Background-color: rgb(31, 82, 111);
+  padding: 5px 10px;
+  margin: 0 0 0 20px;
+  width: 75%;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1.10em;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.headertop p{
+  font-weight: lighter;
+}
+
+.content button a{
+  text-decoration: none;
+  color: white;
+}
+
+.content button {
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 1.2em;
+  border: 0 solid;
+}
+
+header .content button {
+  margin-top: 15px;
+}
+header .right{
+    float: right;
+}
+
+header .container{
+  padding: 20px;
+
+}
+
+.container{
+  margin: 0 auto;
+  padding: 75px;
+  width: 60%;
+}
+
+#Orgs{
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+#Orgs .content{
+  float:right;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#Orgs .container{
+  padding: 125px 0 125px;
+}
+
+#Orgs .content button {
+    margin-top: 20px;
+  }
+
+#Orgs a{
+  color: rgb(255,255,255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Orgs .content button{
+  background-color: Red;
+
+}
+
+#Orgs button a{
+  color: rgb(255,255,255);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#Orgs li{
+  margin: 20px 0 ;
+  padding-left: 10px;
+}
+
+#Orgs h2{
+  font-size: 2em;
+}
+
+#install{
+  background: url("/Users/scottrowell/code/prework/lab-html-module-exercise-master/starter-code/images/forklift.svg")0 0 no-repeat;
+  background-size: cover;
+  height: 475px;
+  color: white;
+  position: relative;
+}
+
+#install h2{
+  font-size: 2.5em;
+}
+
+#install .container{
+    width: 30%;
+    position: absolute;
+    left: 18.75%;
+}
+
+#install p{
+  width: 70%;
+}
+
+#install button{
+  background-color:rgb(49, 68, 88);
+}
+
+#code .container{
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+#code h2{
+  color:rgb(83, 88, 98);
+  font-size: 2.5em;
+}
+
+#code p{
+  color: rgb(135, 145, 156);
+}
+
+#code a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.col{
+  float:left;
+}
+
+.col-3{
+  width: 33%;
+}
+
+#top p{
+  font-size: 1.1em;
+}
+
+.logos {
+  width: 65%
+}
+
+.logos h3{
+  margin: 10px;
+}
+
+.logos p{
+  padding-top: 0;
+  width: 60%;
+  margin: 0 auto;
+}
