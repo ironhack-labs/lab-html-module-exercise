@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>npm</title>
+  <script src="https://use.fontawesome.com/0cc8a19265.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <!-- Your code goes here -->
-</body>
+  <body>
+
+    <nav>
+      <div class="top-left">
+        <a class = "heart" href="#">♥︎</a>
+        <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+      </div>
+        <ul class="top-links">
+          <li><a href="#">npm Enterprise</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">pricing</a></li>
+          <li><a href="#">documentation</a></li>
+          <li><a href="#">support</a></li>
+        </ul>
+    </nav>
+
+    <header id="header">
+      <img  id="npm-logo" src="images/npm-logo.png" alt="npm-logo">
+        <input id="search-bar" type="search" placeholder="find packages">
+        <button id="magnifying-search"><i class="fa fa-search"></i></button>
+      <div id="sign-up-log-in">
+        <a href="#">sign up</a> or <a href="#">log in</a>
+        <img id="bear-logo" src="images/bear-logo.png" alt="bear-logo">
+      </div>
+      <div id="heading-header">
+        <h1>Build amazing things</h1>
+        <p>npm is the package manager for Javascript and the world's largest software
+          registry. Discover packages of reusable code - and assemble them in powderful ways.
+        </p>
+        <button id="sign-up-npm">Sign up for npm</button>
+      </div>
+    </header>
+
+    <section id="orgs">
+          <img id="collab-img" src="images/collaboration.svg" alt="collaboration">
+        <div id="org-list-div">
+          <h1>npm Orgs is powderful collaboration --- for free</h1>
+          <ul id="collab-ul">
+            <li>Encourage code discovery and re-use within teams</li>
+            <li>Publish and control access to your own namespace</li>
+            <li>Manage public and private code with the same workflow</li>
+          </ul>
+          <button id="org-btn">Sign up for Orgs</button><br>
+          <span id="or">or</span>, <a id="learn-more-orgs" href="#">Learn more about Orgs</a></p>
+        </div>
+    </section>
+
+    <section id="about">
+      <div id="about-context">
+        <h1>What is npm?</h1>
+        <p>Use npm to install, share, and distribute code; manage dependencies input
+          your projects; and share & receive feedback with others
+        </p>
+        <button id="install-btn">Install npm</button>
+      </div>
+    </section>
+
+    <section id="registry">
+      <div id="registry-heading">
+        <h1>What can you make with 475,000 building blocks?</h1>
+        <p>The npm registry hosts almost half a million packages of free usable code -
+          the largest software registry in the world
+        </p>
+      </div>
+
+      <div id="registry-articles">
+        <div class="registry-col-3">
+          <img src="images/binoculars.svg" alt="binoculars">
+          <h3>Find</h3>
+          <p>Libraries like <span class="registry-links">JQuery</span>, <span class="registry-links">Bootstrap</span>,
+            <span class="registry-links">React</span>, and <span class="registry-links">Angular</span>,
+            and components from frameworks such as <span class="registry-links">Ember</span>.
+          </p>
+        </div>
+        <div class="registry-col-3">
+          <img src="images/mountain-flag.svg" alt="mountain-flag">
+          <h3>Discover</h3>
+          <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
+        </div>
+        <div class="registry-col-3">
+          <img src="images/backpack.svg" alt="backpack">
+          <h3>Build</h3>
+          <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+        </div>
+      </div>
+    </section>
+
+  </body>
 </html>
+

@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Navigation Bar styling starts here*/
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 300;
+  height: 25px;
+  letter-spacing: 0.2px;
+  padding: 12px 20px;
+}
+
+.top-left{
+  display: inline-block;
+}
+
+.heart{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.top-links{
+  display: inline-block;
+  float: right;
+  list-style: none;
+}
+
+.top-links li{
+  display: inline-block;
+  float:left;
+  margin: 0 14px;
+}
+
+.top-links a{
+  color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+/* Header styling starts here*/
+#header{
+  background-image: url("images/city-scape.svg");
+  color: white;
+  height: 400px;
+}
+
+#npm-logo{
+  width: 120px;
+  padding: 20px;
+}
+
+#search-bar{
+  -webkit-appearance:none;
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 16px;
+  background-color: rgb(31, 82, 111);
+  margin-top: 20px;
+  vertical-align: top;
+  width: 850px;
+  padding-left: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+#magnifying-search{
+  background-color: rgb(31, 82, 111);
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.3em;
+  height: 50px;
+  width: 50px;
+  vertical-align: top;
+  margin-top: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+#sign-up-log-in{
+  display: inline-block;
+  float: right;
+  margin: 25px 20px 0 0;
+}
+
+#sign-up-log-in li{
+  display: inline-block;
+  float: left;
+}
+
+#sign-up-log-in a{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+#bear-logo{
+  width: 40px;
+  vertical-align: middle;
+}
+
+#heading-header{
+  width: 560px;
+  margin: 12px 0 0 100px;
+}
+
+#heading-header h1{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+#heading-header p{
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+
+#sign-up-npm{
+  background-color: rgb(240, 146, 51);
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+}
+
+/*orgs section styling begins here*/
+#orgs{
+  background-color: rgb(39, 53, 71);
+  color: white;
+  text-align: center;
+  padding: 115px 0;
+}
+
+#collab-img{
+  width: 560px;
+}
+
+#org-list-div{
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+  text-align: left;
+  width: 430px;
+}
+
+#org-list-div h1{
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+#collab-ul{
+  font-weight: 300;
+  padding-left: 22px;
+}
+
+#collab-ul li{
+  padding-top: 20px;
+}
+
+#org-btn{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  padding: 10px 25px;
+  background-color: rgb(203, 56, 55);
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#learn-more-orgs{
+  color: white;
+  text-decoration: none;
+}
+
+#or{
+  font-weight: 300;
+}
+
+/*id Section styling begins here*/
+#about{
+  background-image: url("images/forklift.svg");
+  height: 500px;
+  color: white;
+  position: relative;
+}
+
+#about-context{
+  width: 370px;
+  font-weight: 300;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+#about-context h1{
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+#install-btn{
+  background-color: rgb(49, 68, 88);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 25px;
+  padding: 12px 30px;
+}
+
+/*registry section styling begins here*/
+#registry{
+  background-color: white;
+  color: rgb(135, 145, 156);
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#registry h1{
+  color: rgb(83, 88, 98);
+  font-size: 2.2em;
+  font-weight: 300;
+  margin: 50px 0 20px;
+}
+
+#registry-articles{
+  margin: 35px auto;
+}
+
+.registry-col-3{
+  display: inline-block;
+  width: 23%;
+  margin: 0 3%;
+}
+
+.registry-col-3 h3{
+  color: black;
+  margin: 10px 0;
+}
+
+.registry-links{
+  color: rgb(208, 74, 73);
+  font-weight: 400;
+}
