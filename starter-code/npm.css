@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #f2f2f2;
+}
+nav a:hover, header a:hover{
+  color: white;
+}
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+  font-size: 14.5px;
+}
+a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.nav-links-left{
+  float: left;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+.nav-links-left li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.nav-links-right{
+  float: right;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+.nav-links-right li{
+  display: inline-block;
+  margin: 0 10px;
+}
+header{
+  height: 65px;
+  background-color: rgb(31, 90, 120);
+}
+.npm-logo{
+  float: left;
+  margin:17px;
+}
+.header-search{
+  float: left;
+  width: 77%;
+  height: 100%;
+}
+.header-search .search{
+  border: 1px solid #42738a;
+  height: 45px;
+  width:93%;
+  background-color: rgb(31, 82, 111);
+}
+.header-search .submit{
+  border: 1px solid #42738a;
+  height: 45px;
+  width: 45px;
+  position: relative;
+  top: 17px;
+  right:5px;
+  background-color: rgb(31, 82, 111);
+}
+.header-sign-up{
+  float: right;
+}
+.header-sign-up li{
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-sign-up p{
+  position: relative;
+  margin:5px;
+  top: 7px;
+}
+.header-sign-up img{
+  margin-top: 17px;
+}
+.section-1{
+  background-image: url(images/city-scape.svg);
+  background: no-repeat center center cover;
+  height: 373px;
+  color: white;
+}
+
+.section-1 h1{
+  font-size: 45px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.section-1 h3{
+  margin-top: 42px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 145px;
+  background-color: rgb(240, 146, 51);
+  border: 1px solid rgb(240, 146, 51);
+  border-radius: 20px;
+}
+.section-1 h3:hover{
+  margin-top: 42px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 145px;
+  background-color: rgb(220, 126, 31);
+  border: 1px solid rgb(220, 126, 31);
+  border-radius: 20px;
+}
+.section-1 .text{
+  margin-left: 7.5%;
+  width: 45.8%;
+  padding-top: 63px;
+}
+.section-2{
+  height: 585px;
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+.section-2 .text{
+  position: relative;
+  left: 70px;
+  padding-top: 150px;
+  width: 35%;
+  float: left;
+}
+.section-2 li,.section-2 h3{
+  padding-top: 15px;
+}
+.section-2 a, .section-2 p{
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+.section-2 ul{
+  position: relative;
+  left: 17px;
+}
+.section-2 h3{
+  border: 1px solid rgb(203, 56, 55);
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  width: 180px;
+}
+.section-2 h3:hover{
+  border: 1px solid rgb(183, 36, 35);
+  background-color: rgb(183, 36, 35);
+  border-radius: 20px;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  width: 180px;
+}
+.section-2 img{
+  float: left;
+  margin-left: 7.5%;
+  margin-top: 125px;
+}
+.section-3{
+  width: 100%;
+  height: 511px;
+  background-image: url(images/forklift.svg);
+  color: white;
+}
+.section-3 .text{
+  margin-left: 7.5%;
+  padding-top: 120px;
+  width: 28%
+}
+.section-3 h1{
+  padding-bottom: 30px;
+}
+.section-3 p{
+  padding-bottom: 15px;
+}
+.section-3 h3{
+  width: 130px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(49, 68, 88);
+  border-radius: 20px;
+  background-color: rgb(49, 68, 88);
+}
+.section-3 h3:hover{
+  width: 130px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(29, 48, 48);
+  border-radius: 20px;
+  background-color: rgb(39, 58, 58);
+}
+.section-4{
+  text-align: center;
+  height: 510px;
+  color: rgb(135, 145, 156);
+}
+
+.find, .discover, .build{
+  margin-left: 10%;
+  margin-top: 25px;
+  color: rgb(135, 145, 156);
+  height: 300px;
+  width: 20%;
+  float: left;
+}
+.find h3, .discover h3, .build h3{
+  color: rgb(83, 88, 98);
+}
+.section-4 p, .section-4 h3{
+  margin-top: 15px;
+}
+.section-4 a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+.section-4 h1{
+padding-top: 65px;
+padding-bottom: 15px;
+color: rgb(83, 88, 98);
+}
