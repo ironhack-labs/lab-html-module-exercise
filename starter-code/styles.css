@@ -1,0 +1,227 @@
+body {
+  color: white;
+  font-family: "Open Sans", "OpenSans", sans-serif;
+}
+
+h4, h5 {
+  color: rgb(83, 88, 98);
+}
+
+/* Start of Nav */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 10px;
+}
+/* End of Nav */
+
+/* Start of Logo And Search Bar */
+.logo-search {
+  padding: 10px;
+  background-color: rgb(32, 101, 136);
+}
+
+.logo-search div {
+  display: inline-block;
+}
+
+.npm-logo {
+  float: left;
+}
+
+.npm-logo img {
+  width: 125px;
+  height: 50px;
+}
+
+.search-bar-icon {
+  float: left;
+  padding: 0 20px;
+}
+
+.search-bar input {
+  width: 1200px;
+  height: 50px;
+  border: 1px;
+  display: block;
+  padding-left: 20px;
+  background-color: rgb(31, 82, 111);
+}
+
+.search-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding-bottom: 20.5px;
+  border: 1px;
+  background-color: rgb(31, 82, 111);
+  position: relative;
+}
+.user {
+  float: right;
+}
+
+.user ul {
+  margin: 0;
+}
+
+.user li {
+  display: inline-block;
+}
+
+.user a {
+  text-decoration: none;
+  color: white;
+}
+
+.user img {
+  height: 50px;
+}
+/* End of Logo and Search Bar */
+
+header {
+  background-color: rgb(32, 101, 136);
+}
+
+/* Start of Header Content */
+.background-img {
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  height: 450px;
+}
+
+.header-content {
+  width: 600px;
+  margin: 0 700px 0 auto;
+  padding-top: 100px;
+}
+
+.header-content button {
+  background-color: rgb(240, 146, 51);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: white;
+  font-size: 18px;
+}
+/* End of Header Content */
+
+/* Start of Collaboration Section */
+.main-collaboration {
+  background-color: rgb(39, 53, 71);
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.collaboration-img {
+  height: 450px;
+  margin-left: 100px;
+}
+
+.npm-orgs {
+  width: 600px;
+  margin: 0 auto;
+  float: right;
+  padding-top: 100px;
+}
+
+.npm-orgs li {
+  padding-bottom: 20px;
+}
+
+.npm-orgs a {
+  text-decoration: none;
+  color: white;
+}
+
+.npm-orgs button {
+  background-color: rgb(203, 56, 55);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: white;
+  font-size: 18px;
+}
+/* End of Collaboration Section */
+
+/* Start of What is npm? Section */
+.whats-npm {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.whats-npm-content {
+  position: absolute;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+.whats-npm-content button {
+  background-color: rgb(49, 68, 88);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: white;
+  font-size: 18px;
+}
+/* End of What is npm? Section */
+
+/* Star of What can you make? Section */
+.npm-registry {
+  margin: 0 auto;
+  width: 1000px;
+  color: rgb(135, 145, 156);
+  text-align: center;
+}
+
+.float-div {
+  float: left;
+  width: 33%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.logo-descriptions {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  padding-top: 25px;
+  color: rgb(135, 145, 156);
+}
+
+.logo-descriptions a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+/* End of What can you make? Section */
