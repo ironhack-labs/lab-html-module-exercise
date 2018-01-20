@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>npm</title>
     <link rel="stylesheet" href="npm.css">
+    <script src="npm.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -22,24 +24,24 @@
     </nav>
 
     <header>
-      <img class="npm-logo" src="images/npm-logo.png" alt="bear logo" width="120px">
+      <img class="npm-logo" src="images/npm-logo.png" alt="bear logo">
       <div class="header-search">
-        <input class="search" type="search" name="" value=""><input class="submit" type="submit" name="" value=""></input></input>
+        <input class="search" type="search" name="" value=""><button class="search-input" type="submit"></button>
       </div>
       <div class="header-sign-up">
-        <ul>
+        <ul class="sign-up-ul">
           <li><p><a href="#">sign up</a> or <a href="#">log in</a></p></li>
-          <li><img src="images/bear-logo.png" alt="" height="40px"></li>
+          <li><img src="images/bear-logo.png" alt=""></li>
         </ul>
       </div>
     </header>
-
-    <div class="section-1">
-
-      <div class="text">
-        <h1>Build amazing things</h1>
-        <p>npm is the package manager for Javascript and the world's largest software registry. Discover packages of reusable code -- and assemble them in powerful new ways.</p>
-        <h3><a class="button-npm" href="#">Sign up for npm</a></h3>
+    <div class="container-1">
+      <div class="section-1">
+        <div class="text">
+          <h1>Build amazing things</h1>
+          <p>npm is the package manager for Javascript and the world's largest software registry. Discover packages of reusable code -- and assemble them in powerful new ways.</p>
+          <h3><a class="button-npm" href="#">Sign up for npm</a></h3>
+        </div>
       </div>
     </div>
 
@@ -68,22 +70,23 @@
     <div class="section-4">
       <h1>What can you make with 475,000 building blocks?</h1>
       <p>The npm registry hosts almost half a million packages of free, reusable code -- the largest software registry in the world.</p>
-      <div class="find">
-        <img src="images/binoculars.svg" alt="binoculars">
-        <h3>Find</h3>
-        <p>Libraries like <a href="#">JQuery</a>, <a href="">Bootstrap<a/>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p>
-      </div>
+    <div class="container-things">
+        <div class="find">
+          <img src="images/binoculars.svg" alt="binoculars">
+          <h3>Find</h3>
+          <p>Libraries like <a href="#">JQuery</a>, <a href="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p>
+        </div>
+        <div class="discover">
+          <img src="images/mountain-flag.svg" alt="mountain flag">
+          <h3>Discover</h3>
+          <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
+        </div>
 
-      <div class="discover">
-        <img src="images/mountain-flag.svg" alt="mountain flag">
-        <h3>Discover</h3>
-        <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
-      </div>
-
-      <div class="build">
-        <img src="images/backpack.svg" alt="backpack">
-        <h3>Build</h3>
-        <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+        <div class="build">
+          <img src="images/backpack.svg" alt="backpack">
+          <h3>Build</h3>
+          <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+        </div>
       </div>
     </div>
 
