@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-weight: 300;
+  color: #f2f2f2;
+}
+
+a{
+  text-decoration: none;
+  line-height: 22px;
+  color: rgba(255,255,255,0.8);
+}
+
+nav a:hover, header a:hover{
+  color: #ffffff;
+}
+
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  height: 44px;
+  font-size: 14.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  z-index: 1000;
+}
+nav a{
+  color: rgba(255,255,255,0.8);
+  text-align: center;
+  padding: 0.625em 0;
+}
+.nav-links-left{
+  padding-left: 0;
+}
+.nav-links-left li{
+  display: inline-block;
+}
+.nav-links-right{
+  
+  
+}
+.nav-links-right li{
+  display: inline-block;
+  padding-left: 15px;
+}
+header{
+  height: 84px;
+  background-color: rgb(31, 90, 120);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.npm-logo{
+  width: 125px;
+  height: 48.61px;
+
+}
+.header-search{
+  width: 86.8%;
+  height: 50px;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.search{
+  height: 50px;
+  width: 100%;
+  border: 1px solid #42738a;
+  background-color: rgb(31, 82, 111);
+}
+
+.search-input{
+  height: 50px;
+  width: 48px;
+  padding: 14px 14px;
+  overflow: visible;
+  border: 1px solid #42738a;
+  border-left: none;
+  background-color: rgb(31, 82, 111);
+}
+
+.header-sign-up{
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sign-up-ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 164.06px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.header-sign-up li{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header-sign-up p{
+  font-size: 16px;
+}
+
+.header-sign-up img{
+  width: 40px;
+  height: 40px;
+}
+
+.container-1{
+  background-color: rgb(31, 82, 111);
+  /* margin-top: -4.45em; */
+  background-image: url(images/city-scape.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+
+}
+.section-1{
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: table;
+  clear: both;
+
+}
+
+.section-1 h1{ 
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: .107em;
+  padding-bottom: .107em;
+  text-align: left;
+  color: #ffffff;
+  line-height: 62px;
+  size: 48px;
+  font-style: normal;
+}
+.section-1 h3{
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 24px;
+  margin-right: 10px;
+  padding-top: 7px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 8px;
+  height: 24px;
+  width: 134.594px;
+  background-color: rgb(240, 146, 51);
+  border: 1px solid rgb(240, 146, 51);
+  border-radius: 20px;
+}
+.section-1 h3:hover{
+  background-color: rgb(220, 126, 31);
+}
+.section-1 p{
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: .107em;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  display: block;
+}
+.section-1 .text{
+  width: 50%;
+  margin-left: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 0;
+}
+.section-2{
+  height: 585px;
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+.section-2 .text{
+  position: relative;
+  left: 70px;
+  padding-top: 150px;
+  width: 35%;
+  float: left;
+}
+.section-2 li,.section-2 h3{
+  padding-top: 15px;
+}
+.section-2 a, .section-2 p{
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+.section-2 ul{
+  position: relative;
+  left: 17px;
+}
+.section-2 h3{
+  border: 1px solid rgb(203, 56, 55);
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  width: 180px;
+}
+.section-2 h3:hover{
+  border: 1px solid rgb(183, 36, 35);
+  background-color: rgb(183, 36, 35);
+  border-radius: 20px;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  width: 180px;
+}
+.section-2 img{
+  float: left;
+  margin-left: 7.5%;
+  margin-top: 125px;
+}
+.section-3{
+  width: 100%;
+  height: 511px;
+  background-image: url(images/forklift.svg);
+  color: white;
+}
+.section-3 .text{
+  margin-left: 7.5%;
+  padding-top: 120px;
+  width: 28%
+}
+.section-3 h1{
+  padding-bottom: 30px;
+}
+.section-3 p{
+  padding-bottom: 15px;
+}
+.section-3 h3{
+  width: 130px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(49, 68, 88);
+  border-radius: 20px;
+  background-color: rgb(49, 68, 88);
+}
+.section-3 h3:hover{
+  width: 130px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(29, 48, 48);
+  border-radius: 20px;
+  background-color: rgb(39, 58, 58);
+}
+.section-4{
+  text-align: center;
+  height: 510px;
+  color: rgb(135, 145, 156);
+}
+
+.container-things{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.find, .discover, .build{
+  margin-top: 25px;
+  color: rgb(135, 145, 156);
+  height: 300px;
+  width: 20%;
+}
+.find h3, .discover h3, .build h3{
+  color: rgb(83, 88, 98);
+}
+.section-4 p, .section-4 h3{
+  margin-top: 15px;
+}
+.section-4 a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+.section-4 h1{
+padding-top: 65px;
+padding-bottom: 15px;
+color: rgb(83, 88, 98);
+}
+
+.section-4 p{
+  color: #6d7986;
+}
