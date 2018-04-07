@@ -1,0 +1,237 @@
+
+/*NAV*/
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  height: 27px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  position: relative;
+  bottom: 19px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*BODY*/
+
+.navyblue {
+  background-color: #245A79;
+}
+
+/*HEADER*/
+
+.city {
+  background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+  background-position:0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-color: darkblue;
+}
+
+.s1 {
+  float: left;  
+  width: 15%
+}
+
+.s2 {
+  float: left;
+  width: 65%;
+  height: 30px;
+  margin-top: 20px;
+  background-color: #385566;
+  border-color: #6CA4C4;
+}
+
+.s3 {
+  float: left;
+  width: 10%;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.s4 {
+  float: left;
+  width: 8%;
+  padding-left: 10px;
+}
+
+.imgsrc {
+  width: 150px;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.txt-left {
+  text-align: left;
+  width: 530px;
+  padding-left: 100px;
+  padding-top: 0px;
+  color: rgba(255,255,255,0.8);
+  font-size: 30px;
+}
+
+.h1-left {
+  text-align: left;
+  width: 530px;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: rgba(255,255,255,0.8);
+  font-size: 50px;
+}
+
+.a-left {
+  text-align: left;
+  width: 530px;
+  padding-left: 100px;
+  padding-top: 200px;
+  color: rgba(255,255,255,0.8);
+  font-size: 50px;
+}
+
+/*SECTION1*/
+
+.fork{
+  background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+  background-position:0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  background-position: center; 
+  background-color: darkblue;
+}
+
+.inline {
+  display: inline;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.h1-left2 {
+  text-align: left;
+  width: 530px;
+  color: rgba(255,255,255,0.8);
+  font-size: 50px;
+  padding-top: 0px;
+  padding-left: 30px;
+}
+
+.txt-left2 {
+  text-align: left;
+  width: 530px;
+  color: rgba(255,255,255,0.8);
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+.a-left2 {
+  text-align: left;
+  width: 530px;
+  color: rgba(255,255,255,0.8);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.h1-left3{
+  text-align: left;
+  width: 530px;
+  color: rgba(255,255,255,0.8);
+  font-size: 30px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.txt-left3 {
+  text-align: left;
+  width: 530px;
+  color: rgba(255,255,255,0.8);
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+
+.a-left3 {
+  text-align: left;
+  width: 530px;
+  color: rgba(255,255,255,0.8);
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.img2 {
+  float: left;
+  width: 49%;
+  height: 400px;
+}
+
+.ss1 {
+  float: left;
+  width: 49%;
+}
+
+.ss3 {
+  float: left;
+  width: 49%
+}
+.col1 {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.col2 {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.col3{
+float: left;
+width: 30%;
+text-align: center;
+}
+
+.center-txt {
+  width: 200px;
+  padding-left: 95px;
+  color: rgba(255,255,255,0.8);
+  font-size: 18px;
+}
+
+.center-h {
+  text-align: center;
+  font-size: 25px;
+}
+
+.center-p {
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  font-size: 18px;
+}
+
+.center-h1 {
+  font-size: 24px;
+  margin: 10px;
+}
