@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+/** General **************************/
+body{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+h2{
+  font-size: 1.7em;
+  font-weight: 300;
+  line-height: 1.3em;
+  letter-spacing: .7px;
+  margin-top: 0;
+}
+h3{
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.pill-btn{
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+button a{
+  font-weight: 300;
+  color: #FFF;
+}
+a{  text-decoration: none;}
+.clearfix{ clear: both;}
+/** Navbar ***************************/
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,.8);
+  padding: 15px 20px 0 20px;
+  height: 40px;
+  font-size: .8em;
+}
+nav a{
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+}
+nav .top-left{
+  width: 40%;
+  margin: 0;
+}
+.top-links{
+  float: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -24px;
+}
+.top-links li{
+  display: inline-block;
+  margin: 0 10px;
+}
+/** Header ***************************/
+header{
+  background: url("images/city-scape.svg") no-repeat right bottom;
+  background-color:  rgb(32,101,136);
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 150px;
+}
+.header-nav{
+  margin: 0 15px;
+  padding: 20px 0;
+}
+.header-logo{
+  height: 40px;
+  margin-top: 5px;
+}
+form{
+  width: 70%;
+}
+.search-bar{
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  background: rgb(31,82,111);
+  outline: none;
+  border: 1px solid rgba(255,255,255,.2);
+}
+form button{
+  background: inherit;
+  height: 40px;
+  width: 40px;
+  font-size: 1.2em;
+  color: rgba(255,255,255,.8);
+  border: 0px;
+  border-left: 1px solid rgba(255,255,255,.2);
+  position: relative;
+  top: 3px;
+  right: 44px;
+}
+.header-sign{
+  position: absolute;
+  right: 15px;
+}
+.header-sign a{
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+}
+header .top-left{
+  float: left;
+  margin-right: 15px;
+}
+.header--call-to-action{
+  width: 35%;
+  margin: 42px 0 20px 15%;
+}
+header .pill-btn{
+  background: rgb(240, 146, 51);
+}
+
+/** Collaboration ***************************/
+#collaboration{
+  background: rgb(39,53,71);
+  padding: 80px 0;
+}
+.collaboration-content{
+  width: 80%;
+  margin: 0 auto;
+}
+#collaboration img{
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+}
+.collaboration-text{
+  width: 50%;
+  float: left;
+}
+#collaboration ul{
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+#collaboration li{
+  margin-bottom: 9px;
+}
+#collaboration button{
+  background: rgb(203,56,55);
+}
+.more a{
+  font-weight: 400;
+  color: #FFF;
+}
+/** What is ***************************/
+#whatis{
+  background: url("images/forklift.svg") no-repeat right top;
+  background-color:  rgb(32,101,136);
+  background-size: cover;
+  padding-bottom: 150px;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  min-height: 300px;
+}
+.whatis-text{
+  position: absolute;
+  margin: 70px 0 70px 70px;
+  width: 30%;
+}
+#whatis button{
+  background: rgb(49, 68, 88);
+}
+/** Building blocks **********************/
+#buildingblocks{
+  padding: 70px 0;
+  color: rgb(135, 145, 156);
+  text-align: center;
+  background-color: #FFF;
+}
+.building-heading{
+  color: rgb(83,88,98);
+}
+.building-content{
+  width: 80%;
+  margin: 30px auto;
+}
+.col-3{
+  float: left;
+  width: 25%;
+}
+.col-middle{
+  margin: 0 12.5%;
+}
+.col-3 a{
+  color: rgb(208, 74, 73);
+}
