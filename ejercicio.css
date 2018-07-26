@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 25px;
+    line-height:12.5px;
+    font-family:Verdana;
+    font-size:12.5px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0px;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .top-left{
+    float:left;
+    margin-left:10px;
+  }
+  .clear-both{
+    clear: both;
+  }
+  nav a,nav li,nav span{
+    opacity:0.75;
+  }
+  nav span{
+    margin-left:20px;
+  }
+  #npm{
+    width:5%;
+    height:35px;
+  }
+  .header{
+    padding:15px;
+    height:20px;
+    line-height:10px;
+  }
+  .flotar{
+    float:left;
+  }
+  #barra-busqueda{
+    border:1px solid white;
+    padding:10px;
+    padding-right:76%;
+    margin:0 10px;
+    color:white;
+    opacity:0.2;
+    background-color:rgb(31, 82, 111);
+  }
+  .header a{
+    display:block;
+    text-decoration:none;
+  }
+  .header a,.header p{
+    margin:10px 3px;
+    color:white;
+    opacity:0.5;
+  }
+  #osito{
+    height:150%;
+    margin:0 auto;
+  }
+  .section-1{
+    background-image:url("https://static.npmjs.com/images/hero-cityscape.svg");
+    height:450px;
+    background-color:rgb(32, 101, 136);
+  }
+  .section-1-contenido{
+    text-aling:left;
+    margin:90px 15%;
+    color:white;
+  }
+  .section-1-contenido h3{
+    width:60%;
+    font-size:50px;
+    margin-bottom:20px;
+    letter-spacing:2px;
+  }
+  .section-1-contenido p{
+    width:58%;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    opacity:0.9;
+  }
+  #signup-button{
+    color:white;
+    background-color:rgb(240, 146, 51);
+    padding:8px;
+    width:170px;
+    border-radius:55px;
+    border:none;
+    font-size:15px;
+    margin-top:20px;
+  }
+  #compis{
+    width:450px;
+    height:550px;
+    margin:0 2.5% 0 20%;
+  }
+  .section-2{
+    height:550px;
+    background-color:rgb(39, 53, 71);
+    font-color:white;
+  }
+  #section2-right{
+    margin-left:50px;
+    font-size:20px;
+  }
+  #section2-right h3{
+    color:white;
+    font-size:35px;
+    width:500px;
+    margin-top:30%;
+    opacity:0.75;
+  }
+  #section2-right ul{
+    color:white;
+    line-height:35px;
+    font-size:15px;
+    margin-left:20px;
+    opacity:0.75;
+  }
+  #signup-orgs{
+    color:white;
+    background-color:rgb(203, 56, 55);
+    padding:8px;
+    width:170px;
+    border-radius:55px;
+    border:none;
+    font-size:15px;
+    margin-top:15px;
+  }
+  #section2-down a{
+    display:block;
+    text-decoration:none;
+    opacity:0.85;
+  }
+  #section2-down a,#section2-down p{
+    margin-top:10px;
+    margin-bottom:0;
+    padding:2.5px;
+    color:white;
+    font-size:15px;
+  }
+  #section2-down p{
+    opacity:0.65;
+  }
+  #section2-down{
+    width:180px;
+    margin-left:10px;
+  }
+  .section-3{
+    height:450px;
+    background-image:url("https://cdn-images-1.medium.com/max/1600/1*qcQ4dWorD7pkC3W1xRNA0A.png");
+    background-size:cover;
+    position:relative;
+  }
+  .section-3 h3{
+    color:white;
+    font-size:40px;
+    opacity:75px;
+  }
+  .section-3 p{
+    color:white;
+    font-size:17px;
+    opacity:0.75;
+    margin-top:10px;
+  }
+  #install-npm{
+    color:white;
+    background-color:rgb(49, 68, 88);
+    padding:8px;
+    width:140px;
+    border-radius:55px;
+    border:none;
+    font-size:17px;
+    margin-top:15px;
+    opacity:0.85;
+  }
+  .section3-p{
+    position:relative;
+    width:330px;
+    left:10%;
+    top:25%;
+  }
+  .section-4{
+    height:450px;
+  }
+  .section-4 h3,.section-4 p{
+    text-align:center;
+  }
+  .section-4 h3{
+    color:rgb(83, 88, 98);
+    font-size:35px;
+    margin-top:4%;
+  }
+  .section-4 p{
+    font-size:17px;
+    color:rgb(135, 145, 156);
+  }
+  .articles article{
+    text-align:center;
+    width:300px;
+    margin:2% auto;
+  }
+  .articles h4{
+    color:rgb(83, 88, 98);
+    margin:10px auto;
+    font-size:17px;
+  }
+  .articles p{
+    width:240px;
+    margin:auto;
+  }
+  .articles{
+    width:900px;
+    margin:2% auto;
+  }
+  .articles span{
+    color:rgb(208, 74, 73);
+  }
