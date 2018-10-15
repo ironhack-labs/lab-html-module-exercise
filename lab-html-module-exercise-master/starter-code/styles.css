@@ -1,0 +1,273 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 10px;
+    font-size: 14px;
+    height: 30px;
+}
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+h1 {
+   font-family: "Open Sans", OpenSans, sans-serif;
+   font-style: normal;
+   font-weight: 200;
+   font-size: 48px;
+   line-height: 55px;
+   color: #f4f4f4;
+}
+h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 41px;
+    color: #ffffff;
+}
+ul {
+    color: #f4f4f4;
+}
+p {
+    color: #ffffff;
+}
+/* classes used in header*/
+.heart {
+    padding: 0 10px;
+}
+.top-left { 
+      display: inline-flex;
+}
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.search-bar {
+    background-color: rgb(36, 92, 124);
+    display: inline-flex;
+    float: left;
+    height: 40px;
+}
+.login {
+    margin: auto;
+    padding: 10px 5px;
+    height: 40px;
+    float: left;
+    color: #ffffff;
+}
+.search-bar img {
+    height: 40px;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+}
+.login a {
+    float: left;
+    width: auto;
+    color: #ffffff;
+    text-decoration: none;
+}
+.login p {
+    float: left;
+    margin: auto;
+    padding: 0px 5px;
+}
+.search-box {
+    background-color: rgb(34, 81, 109);
+    height: 25px;
+    width: 1270px;
+    padding: 5px 5px;
+    margin: 5px 0;
+    border: 2px solid rgb(43, 98, 127);
+}
+.searchButton {
+    background-color: rgb(34, 81, 109);
+    background-image: url("images/noun_Search.svg");
+    background-repeat: no-repeat;
+    height: 39px;
+    width: 40px;
+    padding: 5px 0;
+    margin: 5px 10px 5px 0;
+    border-width: 2px 2px 2px 0;
+    border-style: solid;
+    border-color: rgb(43, 98, 127);
+}
+.build-amazing-things-bkgrnd {
+    background-image: url("images/city-scape.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.build-amazing-things {
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 5% 30% 5% 0;
+    position: left;
+    color: white;
+}
+.build-amazing-things p {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f4f4f4;
+    padding-bottom: 20px;
+}
+.link-btn-orange {
+    background-color:rgb(240, 146, 51);
+    color: #ffffff;
+    font-family: "Open Sans", OpenSans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+}
+.link-btn-red {
+    background-color: rgb(193, 33, 39);
+    color: #ffffff;
+    font-family: "Open Sans", OpenSans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+}
+.link-btn-blue {
+    background-color:rgb(39, 53, 71);
+    color: #ffffff;
+    font-family: "Open Sans", OpenSans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+}
+/* classes used in section 1*/
+.sec-1 {
+    width: 70%;
+    height: 300px;
+    padding: 5% 15% 5% 15%;
+    margin: 0 auto;
+    display: inline-flex;  
+    background-color: rgb(39, 53, 71);
+}
+.sec-1 img {
+    height: 80%;
+    padding-left: 10%;
+}
+.sec-1-content {
+    width: 50%;
+    float: right;
+    padding-left: 5%;
+}
+.sec-1-content ul {
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.sec-1-content a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* classes used in section 2*/
+.instal-npm-bckgrnd {
+    background-image: url("images/forklift.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.instal-npm {
+    width: 25%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 5% 30% 10% 0;   
+}
+.instal-npm p {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f4f4f4;
+    padding-bottom: 20px;
+}
+/* classes used in section 2*/
+.sec-3 {
+    display: inline-flex;
+    margin: 0 auto;
+}
+.sec-3 h2 {
+    color: rgb(83, 88, 98);
+    text-align: center;
+}
+.sec-3 h3 {
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+.sec-3 p {
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+.sec-3 a {
+    color: rgb(221, 124, 124);
+    text-align: center;
+    text-decoration: none;
+}
+.sec-3-head {
+    margin: 0 auto;
+}
+.container {
+    padding-left: 20%;
+    padding-top: 20px; 
+}
+.col {
+    float: left; 
+  }
+.col-3 {
+    width: 20%;
+    text-align: center; 
+}
+.col-middle {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.clearfix {
+    clear: both;
+}
