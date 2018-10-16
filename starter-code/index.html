@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+    <link rel ="stylesheet" href= "npm.css">
   <title>npm</title>
 </head>
 <body>
-  <!-- Your code goes here -->
+    <nav class="nav-bar">
+        <div class="top-left">
+          <a class = "heart" href="#">♥︎</a>
+          <span class="acronym">Navel Pondering Mantra</span>
+        </div>
+        <ul class="top-links">
+          <li><a href="#">npm Enterprise</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">pricing</a></li>
+          <li><a href="#">documentation</a></li>
+          <li><a href="#">support</a></li>
+        </ul>
+      </nav>
+<header class="header">
+<div class="head-of-header">
+  <div class= "col col-1"><a href ="#"><img src="./images/npm-logo.png" alt="logo of npm" class="npm-logo"></a></div>
+   <div class="col col-2"><input type="text" placeholder="find packages" class="find-packages"></div>
+   <div class= "col col-3 "><span class="login"> <a href="#">sign up</a> <span class= "or">or</span> <a href="#">login</a></span></div>
+   <div class="col col-4"><img src="./images/bear-logo.png" class="bear-logo"></div>
+   <div class="clearfix"></div>
+</div>
+<div class="bottom-header">
+  <div class="col col-5">
+   <h1 class="header-title">Build amazing things</h1>
+    <p class="headertext">npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.</p>
+       <a href="#" class="signup"><input type="button" value="Sign up for npm" class="signup-button"></a></div>
+</div>
+</header>
+
+<section id="orgs"> 
+  <div class="container">
+    <article class="col-left"><img src="./images/collaboration.svg"></article>
+    <article class="col-right">
+      <h2>npm Orgs is powerful collaboration — for free</h2>
+      <ul>
+        <li class="orgs-item">Encourage code discovery and re-use within teams</li>
+        <li class="orgs-item">Publish and control access to your own namespace</li>
+        <li class="orgs-item">Manage public and private code with the same workflow</li>
+      </ul>
+      <a href="https://www.npmjs.com/signup?next=/org/create"><input type="button" value="Sign up for Orgs" class= "orgs-button"></a>
+      <p>or,<a href="https://www.npmjs.com/features" class="learn-more">    Learn more about Orgs</a></p>
+    </article>
+    
+  </div>
+</section>
+
+<section id="npm"> <!-- add background picture -->
+  <div class="npm-div">
+     <article>
+    <h2 class="npm-header">What is npm?</h2>
+    <p class="npm-text">Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+      <a href="https://www.npmjs.com/signup?next=/org/create"><input type="button" value="Install npm" class="npm-button"></a>
+     </article>
+    <div class="clearfix"></div>
+  </div>
+</section>
+
+<section id="building-blocks" class="container">
+<div class="upper-building-blocks">
+    <h2 class="building-blocks-header">What can you make with 475,000 building blocks?</h2>
+    <p class="building-blocks-text">The npm registry hosts almost half a million packages of free, reusable code - the largest software registry in the world.</p>
+    </div> 
+    <div class="lower-building-blocks">
+   <article class="col col-6">
+         <img src="./images/binoculars.svg">
+           <p class="bb-headers">Find</p> 
+               <p class="bb-text">Libraries like <a href ="https://www.npmjs.com/package/jquery" class="bold-red"> jQuery</a>, <a href ="#" class="bold-red">Bootstrap, </a><a href ="https://www.npmjs.com/package/jquery" class="bold-red">React</a>, and <a href ="https://www.npmjs.com/package/jquery" class="bold-red">Angular</a>, and components from frameworks such as<a href ="https://www.npmjs.com/package/jquery" class="bold-red"> Ember</a>.</p>
+     </article>
+  <article class="col col-6 col-margin">
+       <img src="./images/mountain-flag.svg">
+           <p class="bb-headers">Discover</p>
+             <p class="bb-text">Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.</p>
+</article>
+  <article class="col col-6">
+       <img src="./images/backpack.svg">
+           <p class="bb-headers">Build</p>
+             <p class="bb-text">Assemble packages like building blocks to quickly develop awesome new projects.</p>
+</article>
+    <div class="clearfix"></div>
+  
+  </div>
+</section>
+
 </body>
 </html>
