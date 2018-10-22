@@ -152,11 +152,14 @@ nav a {
 /* Section 2 */
 
 .third-bg {
+  backg
   background-color: rgb(40,50,70);
   position:relative;
+  height:
 }
 
 .third-text {
+  float
   position:absolute;
   overflow-wrap: break-word;
 }
