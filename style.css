@@ -1,0 +1,214 @@
+* {
+  margin:0 auto;
+  max width: 100%;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:lighter;
+}
+
+.div-shape {
+  margin:0 auto;
+  padding:20px 20px;
+}
+button {
+  border-radius:25px;
+  color:white;
+  letter-spacing:1px;
+  padding:10px 20px;
+  border-style:none;
+  margin:50px 0 0 0;
+}
+.orange {
+  background-color: rgb(240,146,51);
+}
+
+.red {
+  background-color: rgb(203,56,55);
+}
+
+.gray {
+  background-color: rgb(49,68,88);
+}
+
+h2 {
+  font-size:30px;
+  font-weight:lighter;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* span languages */
+
+.lang {
+  color: rgb(208,74,73);
+}
+ /* Nav Bar */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.acronym {
+  font-size:12px;
+}
+
+.top-left {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:10px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:12px;
+}
+
+/* Header */
+
+.npm {
+  width:7%;
+  padding: 6px 0 0 0;
+  float:left;
+}
+
+.top-form {
+  background: rgba(31,82,111);
+  width: 72%;
+  float:left;
+  max-width:100%;
+}
+
+.bear {
+  float:left;
+  height:40px;
+  position:relative;
+
+}
+
+#top-background {
+  background-color:rgb(31,82,111);
+}
+
+.search-bar {
+  background-color: rgb(31,82,111);
+  color:white;
+  height:40px;
+  padding:6px;
+}
+
+.first-center {
+  width:100%;
+  background: rgb(32,101,136);
+  color: white;
+  padding:100px;
+  float:left;
+  max-width:79%;
+}
+
+.cs {
+  
+}
+
+/* Section 1 */
+
+.second-bg {
+  background:rgb(36,53,71);
+  height:200%;
+}
+
+.collabo {
+  width:60%;
+  padding:60px 60px 60px 40px;
+  float:left;
+}
+
+.second-pic {
+  width:50%;
+}
+
+.second-text {
+  width:100%;
+  color:white;
+  font-size:12px;
+  padding:40px 5px 40px 5px;
+}
+
+/* Section 2 */
+
+.third-bg {
+  backg
+  background-color: rgb(40,50,70);
+  position:relative;
+  height:
+}
+
+.third-text {
+  text-align:center;
+  float:left;
+}
+
+.bear-lift {
+float:right;
+}
+
+/* Section 3 */
+
+.fourth-box {
+  text-align: center;
+  background-color:white;
+  color: rgb(83,88,98);
+}
+
+.choices {
+  background-color:white;
+  color: rgb(135,145,156);
+  display: inline-block;
+  text-align:center;
+}
+
+.binoc {
+  display: inline-block;
+  max-width:250px;
+}
+
+.mtn {
+  display: inline-block;
+  max-width:250px;
+}
+
+.bp {
+  display: inline-block;
+  max-width:250px;
+}
+
+.second-text ul {
+  line-height:30px;
+}
+
+.second-text a {
+  text-decoration:none;
+  color:white;
+  float: right;
+}
