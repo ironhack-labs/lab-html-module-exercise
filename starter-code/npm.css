@@ -1,0 +1,324 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+   
+*{
+  margin:0;
+  padding:0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+
+
+
+
+.header{
+  background-color:rgb(32, 101, 136);
+  color:white;
+  
+  
+  
+
+  
+}
+
+.buscador{
+height: 70px;
+position: relative;
+
+}
+.logo-npm{
+float: left;
+padding: 10px 10px;
+position: relative;
+
+}
+.box{
+ float: left;
+ padding: 10px 36%;
+ margin:10px  10px  0px 0px;
+ position: relative;
+ background-color:rgb(31, 82, 111);
+ border: transparent;
+ text-align: left;
+
+ 
+ 
+ 
+ 
+}
+
+.boton_1{
+  float: right;
+  text-decoration: none;
+  color:white;
+  padding: 20px 7px;
+  border: transparent;
+  border-radius: 20px;
+  position: relative;
+
+
+  
+}
+    
+.oso{
+float: right;
+ 
+}
+
+
+.central{
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 0 0 0 0 ;
+
+
+  
+  
+  
+  
+}
+h1 {
+  position: relative;
+  padding: 20px 0;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-size: 3em;
+  
+}
+
+.central-text{
+  position: relative;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  float: left;
+  width: 40%;
+  padding: 50px 0px 0 100px;
+  display: block;
+  box-sizing: border-box;
+
+  
+  
+ 
+}
+ .bottom{
+width: 200px;
+height: 35px;
+text-align: center;
+position: relative;
+border-radius: 20px;
+text-decoration: none;
+padding: 5px;
+
+
+
+
+
+
+  
+} 
+ a{
+  color:#fff;
+  text-decoration: none;
+
+  
+}
+  
+.orange{
+  background-color: #fd8c47;
+  margin-top:35px;
+  margin-left:0;
+  height: 35px;
+  
+}
+.edificios{
+  margin: 0 auto;
+  float: right;
+  position: relative;
+  padding:10px 100px 0px 0px;
+  width: 40%;
+  margin-right: 50px;
+  margin-bottom: 15px;
+ 
+
+}
+
+/* section1 */
+
+#section1{
+  background-color: rgb(39, 53, 71);
+  overflow: hidden;
+  height: 550px;
+
+  
+  
+}
+.derecha{
+  float: right;
+  color:white;
+  margin-right:100px;
+  margin-top:75px;
+  position: relative;
+  overflow: hidden;
+  width: 40%;
+  
+  
+}
+.imagenGrupo{
+  margin-top:75px;
+  margin-left:220px;
+  width: 40%;
+  position: relative;
+}
+h2{
+  position: relative;
+  padding: 20px 0;
+  font-weight: 100;
+  box-sizing: border-box;
+  font-size: 2.5em;
+  
+  
+}
+
+ .list-ul{
+   line-height: 2em;
+   padding-bottom: 25px;
+   margin-left: 45px;
+   font-size: 1.3em;
+ }
+  .red{
+    background-color:rgb(203, 56, 55);
+    margin-top:15px;
+    margin-left:20px;
+    position: relative;
+    font-size: 1.3em;
+    text-align: center;
+    padding-top: 5px;
+    height: 35px;
+    
+    
+    
+  }
+  .r{
+    line-height: 35px;
+  }
+  
+  .learn{
+    margin-top: 10px;
+    margin-left: 15px;
+
+    
+  }
+   /* section2 */
+
+   
+     
+    
+     
+   
+   #section2 {
+     height: 550px;
+     position: relative;
+    
+
+   }
+   .fondo{
+    background-image: url(../starter-code/images/forklift.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+    
+  }
+   .text-what{
+     position: absolute;
+     line-height: 1.5;
+     font-size: 1.25rem;
+     color: #fff;
+     margin-top:75px;
+     margin-left:400px;
+     width: 25%;
+     
+   }
+     
+    .blue-dark{
+    background-color: rgb(49, 68, 88);
+    margin-top:35px;
+    margin-left: 100px;
+    position: absolute;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 5px;
+    height: 35px;
+    }
+
+
+    /* section3 */
+  #section3{
+    margin: auto auto;
+    background-color:white;
+    color: rgb(83, 88, 98);
+    height: 550px;
+    overflow: hidden;
+    display: block;
+  }
+  .link-red{
+    color:rgb(208, 74, 73);
+  }
+  .titulo3{
+    text-align: center;
+    margin-top:25px;
+    line-height:23px;
+    position: relative;
+  }
+  .ref3{
+    font-size: 1.2em;
+    position: relative;
+  }
+   .col{
+    float: left;
+    width: 20%;
+    margin-left:150px;
+    text-align: center;
+  }
+
+  h3{
+    font-weight:bold;
+  }
+p{
+  margin-top: 10px;
+  font-size:1.1em;
+  line-height: 25px;
+}
+.enmedio{
+  margin:100px 220px;
+  
+}
+   
