@@ -1,12 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>npm</title>
 </head>
 <body>
-  <!-- Your code goes here -->
+
+  <!-- barra de navegación -->
+  <nav>
+    <div class="top-left">
+      <a class="heart" href="#">♥︎</a>
+      <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+    </div>
+    <ul class="top-links">
+      <li><a href="#">npm Enterprise</a></li>
+      <li><a href="#">features</a></li>
+      <li><a href="#">pricing</a></li>
+      <li><a href="#">documentation</a></li>
+      <li><a href="#">support</a></li>
+    </ul>
+  </nav>
+
+  <!-- header -->
+  <header>
+    <div class="top-background">
+      <img class="header-logo" src="images/npm-logo.png" alt="logo">
+      <form class="top-left" action="#">
+        <input class="header-bar" type="text" placeholder="  find packages">
+        <button class="search-bar" type="submit" value="send">search</button>
+      </form>
+      <div>
+        <p class="header-link"><a href="#">sign up</a> or <a href="#">log in</a></p>
+        <img class="log-bear" src="images/bear-logo.png" alt="bear logo">
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="header-content">
+        <h1>Build amazing things</h1>
+        <p>npm is the package manager for JavaScript and the world’s largest
+          <br>software registry. Discover packages of reusable code — and
+          <br>assemble them in powerful new ways.</p>
+        <button class="header-button"><a href="#">Sign up for npm</a></button>
+    </div>
+  </header>
+
+  <!-- primera sección -->
+  <section id="collaboration">
+  <div class="collaboration-content">
+    <img src="images/collaboration.svg" alt="collaboration image" width="60%" height="60%" relative>
+    <div class="collaboration-text">
+    <h2>npm Orgs is powerful<br>collaboration - for free</h2>
+    <ul>
+      <li>Encourage code discovery and re-use within teams</li>
+      <li>Oublish and control acces to your own namespace</li>
+      <li>Manage public and private code with the same workflow</li>
+    </ul>
+    <button class="collaboration-button"><a href="#">Sign up for Orgs</a></button>
+    <br><p>or, <a href="#">Learn more about Orgs</a></p>
+  </div>
+  </div><div class="clearfix"></div>
+  </section>
+
+  <!-- segunda sección -->
+  <section id="information-npm">
+    <div class="information-text">
+    <h2>What is npm?</h2>
+    <p>Use npm to install, share, and distribute code;
+      <br>manage dependencies in your projects; and
+      <br>share & recieve feedback with others</p>
+    <button class="information-button"><a href="#">Install npm</a></button>
+    </div><div class="clearfix"></div>
+  </section>
+
+  <!-- tercera sección -->
+  <section id="build">
+  <div class="build-heading">
+    <h2>What can you make with 475,000 building blocks?</h2>
+    <p class="paragraph">The npm registry hosts almost half a million packages of free, reusable code - the largest software registry in the world.</p>
+  </div>
+
+  <div class="build-content">
+    <div class="build-box col-3">
+      <img class="img" src="images/binoculars.svg" alt="binoculars image">
+      <h3>Find</h3>
+      <p>Libraries like <a href="#">jQueri</a>, <a href="#">Bootstrap</a>,
+        <br><a href="#">React</a>, and <a href="#">Angular</a>, and
+        <br>components from frameworks
+        <br>such as <a href="#">Ember</a>.</p>
+    </div>
+    
+    <div class="build-box col-3 col-middle">
+      <img class="img" src="images/mountain-flag.svg" alt="mountain image">
+      <h3>Discover</h3>
+      <p>Package for mobile, IoT, front
+        <br>end, back end, robotics...
+        <br>everything you need to start
+        <br>building amazing things.</p>
+    </div>
+
+    <div class="build-box col-3">
+      <img class="img" src="images/backpack.svg" alt="backpack image">
+      <h3>Build</h3>
+      <p>Assemble package like building
+        <br>blocks to quickly develop
+        <br>awesome new projects.</p>
+    </div>
+  </div><div class="clearfix"></div>
+  </section>
+
 </body>
 </html>
