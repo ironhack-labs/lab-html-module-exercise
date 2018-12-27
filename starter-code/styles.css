@@ -164,7 +164,7 @@ header {
 
 .section- img {
   height: 280px;
-  width: 600px;
+  width: auto;
   padding-right: 32px;
   display: block;
   float: none;
@@ -245,7 +245,7 @@ header {
   box-sizing: border-box;
   display: block;
   height: 501px;
-  width: 1440px;
+  width: auto∫;
 }
 
 #spacer-npm {
@@ -326,8 +326,12 @@ header {
 .blocks-cage {
   background: white;
   height: 514.875px;
-  width: 1440px;
-  display: block;
+  width: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
 
 }
 
@@ -338,6 +342,7 @@ header {
   margin: 32px 208px;
   padding: auto 16px;
   max-width: 1024px;
+  text-align: center;
 }
 
 .text-cage-center{
@@ -346,7 +351,8 @@ header {
   line-height: 18.4px;
   height: 140.75px;
   margin: auto 49.6094px auto 49.5938px;
-  width: 892.797px;
+  width: auto;
+  text-align: center;
 }
 
 .text-cage-center h2 {
@@ -360,7 +366,7 @@ header {
   padding-bottom: 4px;
   padding-top: 16px;
   text-align: center;
-  width: 892.797px;
+  width: auto;
 }
 
 .text-cage-center p {
@@ -368,7 +374,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   height: 50px;
-  width: 892.797px;
+  width: auto;
   line-height: 18.4px;
   margin-block-end: 16px;
   margin-block-start: auto;
@@ -383,7 +389,7 @@ header {
   float: left;
   padding: 8px;
   height: 358px;
-  width: 325.328px;
+  width: auto;
   line-height: 18.4px;
   margin-block-start: 25px;
 }
