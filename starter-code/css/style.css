@@ -1,0 +1,68 @@
+/* Quick styling of npm clone using bootstrap instead of tachyons framework
+Q : CANNOT USE RELATIVE LINKS TO FOLDER FOR BACKGROUND IMAGEDS ?!
+https://tachyons.io/docs/
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:300,400');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif !important; 
+}
+
+.navbar, .navbar a {
+    font-size: .875rem;
+    font-weight: 600 !important;
+    color: #222 !important;
+}
+
+.navbar, .navbar a:hover {
+    color: rgb(130, 130, 130) !important;
+}
+
+.navbar-brand {
+    margin-right:0 !important;
+}
+
+#searchbar {
+    background-color:  #e9ecef;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    color:rgb(130, 130, 130) !important;
+}
+
+#searchbar, .input-group-text {
+    border:none !important;
+}
+
+nav {
+    padding: 0rem 1rem !important;
+  }
+
+nav form {
+    padding: .5rem 1rem;
+}
+
+nav:nth-child(2) {
+    border-top:1px solid rgba(0,0,0,.1);
+  }
+
+ #collaborate > div {
+    background-color: #273547 !important;
+}
+#collaborate .jumbotron, #sign-up .jumbotron, #howto .jumbotron, #efficient .jumbotron {
+height: 70vh !important; 
+}
+
+#sign-up .jumbotron {
+    background-color: #1D4E69; 
+    background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+    /* background-image: url(../images/city-scape.svg); ??! */
+}
+
+#howto .jumbotron {
+    background-color: #206F9C;
+     background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+    /* background-image: url(../images/forklift.svg); */
+
+}
