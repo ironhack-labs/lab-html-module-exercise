@@ -13,7 +13,7 @@ In this exercise you will be able to apply all the concepts you've just learned,
 ## Getting started
 
 - Click on the button "Clone or download" and a window will appear:
-  ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3cd92839c499fe04b53a5bbee5ce2dfe.png =400x)
+  ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3cd92839c499fe04b53a5bbee5ce2dfe.png)
 - **Click the button "Download as zip"**
 
 
@@ -23,7 +23,7 @@ In this exercise you will be able to apply all the concepts you've just learned,
 
 In this exercise, you will clone one of the previous versions of the landing page of **NPM website**.  NPM is a package manager for NodeJS, and you will be using it heavily throughout this course.
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_66957e0bffb5e59c6b1713c489323168.png =1000x)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_66957e0bffb5e59c6b1713c489323168.png)
 
 
 You can see the larger version of this picture [here](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_66957e0bffb5e59c6b1713c489323168.png). If you're struggling to see the details, feel free to zoom in to 200%.
@@ -43,7 +43,7 @@ The `starter-code` folder contains an `index.html` file with the main structure 
 ### Part I - the pure HTML (no styles applied)
 
 This is kind of our goal 🙃:
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_fb961b15cf7fcd5867273a3e77d3a0cf.png =500x)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_fb961b15cf7fcd5867273a3e77d3a0cf.png)
 
 The most difficult part of this exercise is deciding how to structure the page and picking the correct *semantic* tags for the job. Picking the right semantic tags will make your job easier in the next exercise when it comes time to styling.
 
