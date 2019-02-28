@@ -13,7 +13,7 @@ In this exercise you will be able to apply all the concepts you've just learned,
 ## Getting started
 
 - Click on the button "Clone or download" and a window will appear:
-  ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3cd92839c499fe04b53a5bbee5ce2dfe.png)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_e1d537a0f12e005606bc1fae2277bb70.jpeg)
 - **Click the button "Download as zip"**
 
 
