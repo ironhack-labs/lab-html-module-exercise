@@ -125,7 +125,7 @@ body{
 If you the changes you just made in your `styles.ccs`  file and refresh your browser, the whole page should turn red.  If this happens, you know that you have linked the CSS file correctly. (*You can delete that from your CSS once you have confirmed it's working.*) :wink: 
 
 
-### CSS 2 | The Navbar
+#### CSS 2 | The Navbar
 
 In the first part of this exercise, you created the navbar and it looks like this: 
 
