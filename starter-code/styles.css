@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: lato;
+  font-size: 10px;
+  line-height: 3.5em;
+  
+}
+
+h1{
+  font-size: 5em;
+  line-height: 1.2em;
+  font-weight: 300;
+  
+}
+h2{
+  font-size: 4em;
+  line-height: 1.2em;
+  font-weight: 400;
+  
+}
+
+h3{
+  font-size: 3.5em;
+  font-weight: 400;
+  color: rgb(83, 88, 98);
+}
+
+h4{
+  font-size: 2.7em;
+  font-weight: 400;
+  
+}
+button {
+  font-family: lato;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.6);
+  padding-top: 15px;
+  height: 20px;
+  font-size: 1.2em;
+  line-height: 0.5em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+}
+.clearfix{
+  clear: both;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.top-left {
+  float: left;
+  padding: 0;
+  margin: 0 20px 0 20px;
+  
+}
+.acronym{
+  margin: 0 20px 0 20px;
+}
+.header{
+  background-image: url("images/city-scape.svg");
+  background-color: rgb(32, 101, 136);
+  height: 550px;
+  padding-top: 5px;
+  position: relative;
+  font-weight: 300;
+}
+.header p{
+  margin: 20px 0px;
+  font-size: 2em;
+  line-height: 1.5em;
+  
+}
+
+ 
+.search-bar {
+  margin: 0px auto;
+  width: 100%;
+  height: 40px;
+  margin: 0px auto 40px auto;
+}
+.logo-nmp{
+  height:40px;
+	width:10%;
+	float:left;
+	margin: auto 10px auto auto;
+}
+
+.search-term{
+  padding: auto 5px;
+  height: 80%;
+	width:1060px;
+	float:left;
+	margin: 0px 2px;
+  outline: none;
+  border: 3px solid rgb(31, 82, 111);
+  background-color: rgb(31, 82, 111);
+  color: rgba(255,255,255,0.6);
+}
+
+.search-btn {
+  border: 3px solid rgb(31, 82, 111);
+  background-color: rgb(31, 82, 111);
+  display: block;
+  font-size: 2em;
+  float:left;
+  margin: 0px 15px 0px 0px;;
+  padding: auto 5px;
+  text-align: center;
+  width: 30px;
+  height: 80%;
+  color: rgba(255,255,255,0.6);
+}
+
+.search-text{
+  font-size: 1.6em;
+  color: rgba(255,255,255,0.6);
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+.search-a{
+  text-decoration: none;
+  color: rgba(255,255,255,0.6);
+}
+.logo-bear{
+  float:left;
+  width: 40px;
+}
+.sign-up{
+  width: 55%;
+  margin: 0px auto;
+  color: rgb(255,255,255);
+}
+.sign-up-button{
+  background-color: rgb(240, 146, 51);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  padding: 10px 100px;
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+  text-decoration: none;
+ }
+.col-div{
+  margin: 0 auto;
+  padding: 130px 20px 20px 250px;
+  width: auto;
+  height: 500px;
+  background-color: rgb(39, 53, 71);
+  color: rgb(255, 255, 255, 0.9);
+}
+.col-div-1{
+  width: 40%;
+  height: auto;
+  float: left;
+  margin: auto 70px auto auto;
+  
+}
+.col-div-2{
+  width: 40%;
+  height: auto;
+  float: left;
+  
+}
+.col-ul{
+  font-size: 2.1em;
+  margin: 0px auto;
+  padding: 5px 30px 30px 30px;
+  font-weight: 300;
+}
+.col-il {
+  line-height: 1.5em;
+}
+.col-button{
+  background-color: rgb(203, 56, 55);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  padding: 7px 30px;
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0px 20px;
+  text-decoration: none;
+ }
+ .col-div p{
+  font-size: 1.7em;
+  margin: 0px auto;
+  padding: 10px 10px 10px 20px;
+  font-weight: 300;
+  
+ }
+ .col-a{
+   color: white;
+   text-decoration: none;
+   font-weight: 400;
+ }
+
+ .what-is{
+   height: 500px;
+   background-image: url("images/forklift.svg");
+   background-size: cover;
+   color: white;
+   position: relative;
+   
+ }
+ .what-is-div {
+   position: absolute;
+   top: 120px;
+   left: 140px;
+   width: 400px;
+   
+ }
+ .what-is-button{
+   background-color: rgb(49, 68, 88);
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 50px;
+   padding: 7px 30px;
+   font-size: 2em;
+   font-weight: 300;
+   color: white;
+   text-decoration: none;
+  
+ }
+
+ #what-is p{
+   font-size: 1.8em;
+   margin: 10px auto;
+   line-height: 1.5em;
+   font-weight: 300;
+ }
+
+.blocks{
+  padding: 50px 0px;
+  height: 400px;
+}
+ .blocks-text{
+   width: 65%;
+   margin: 0 auto;
+   
+   text-align: center;
+   padding: 300px auto auto auto;
+ }
+ .blocks-box{
+    width: 70%;
+    margin: 0 auto;
+    
+ }
+ .blocks-box div{
+  
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  float: left;
+ }
+
+#blocks p{
+  color: rgb(135, 145, 156);
+  line-height: 1.5em;
+  margin: 20px 0px;
+  font-size: 1.6em;
+  padding: 0px 40px;
+}
+#blocks a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
