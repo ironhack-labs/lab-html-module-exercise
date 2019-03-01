@@ -1,0 +1,316 @@
+body {
+    font-family: "Open Sans","OpenSans",sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  /* NAV BAR ITEMS */
+  nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 8px 0;
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  
+  .top-left {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: lighter;
+  }
+  
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+    text-align: center;
+  }
+    
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  
+  /* SECTION 1 HEADER */
+  header {
+    max-width: 100%;
+    font-size: 1em;
+    background-color: rgb(32, 101, 136);
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-item {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .bar-set {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  .logo-set {
+    
+  }
+  .logo-set img {
+    box-sizing: border-box;
+    width: 9%;
+    float: left;
+    padding-top: 5px;
+  }
+  
+  .search-set {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+   
+  }
+  
+  .search-set input {
+    font-size: 1em;
+    width: 92%;
+    background-color: rgb(31, 82, 111);
+    padding: 15px 10px;
+    border-color: rgba(255,255,255,0.2);
+    border-width: 1px;
+    border-style: solid;
+    color: rgba(255,255,255,0.8);
+    }
+  
+  .item-set {
+    display: inline-block;
+    color: white;
+    margin-left: 45px;
+    clear: left;
+  }
+  
+  .item-set p {
+    color: white;
+  }
+  
+  .item-set a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .bear-set {
+    margin-left:8px;
+    margin-top: 5px;
+    float: right;
+  }
+  
+  .bear-set img {
+    width: 40px;
+    height: auto;
+    
+  }
+  
+  .container-one {
+    background-image: url("images/city-scape.svg");
+    padding: 90px 20px 80px 30px;
+    max-width: 100%;
+  
+  
+  }
+  
+  .container-bottom {
+    width: 50%;
+    padding-left: 50px;
+    color: white;
+    margin-left: 150px;
+    
+  }
+  
+  .container-bottom h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .container-bottom p {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+  
+  .link-btn { 
+    background: rgb(240, 146, 51);
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    width: 130px;
+    height: 20px;
+    color:  white;
+    text-align: center;
+    padding: 8px 26px 8px 26px;
+    font-weight: lighter;
+  }
+  
+  /* SECTION2 COLLABORATION */
+  
+  .background-section {
+    max-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    background-color: rgb(39, 53, 71);
+  }
+  
+  .img-collaboration {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  
+  .img-collaboration img {
+    width: 95%;
+  }
+  
+  .text-collaboration {
+    width: 40%;
+    display: inline-block;
+    padding-left: 30px;
+  }
+  
+  
+  .text-collaboration h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  
+  .text-collaboration li, p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-weight: 100;
+  }
+  
+  .text-collaboration ul {
+    padding-left: 20px;
+  }
+  
+  .text-collaboration a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+  }
+  
+  .text-collaboration button {
+    background-color: rgb(172, 46, 45);
+    color: white;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 8px 26px;
+  }
+  
+  /* SECTION3 WHAT IS NPM */
+  
+  .what-npm {
+    background-image: url("images/forklift.svg");
+    background-size: contain;
+    background-position: 50% 0;
+    padding: 60px 20px 180px 20px;
+  }
+  
+  .text-npm {
+    margin: 40px 50px 20px 0px;
+    padding: 0 100px;
+    line-height: 1.5;
+  }
+  
+  .what-npm h2 {
+      font-size: 36px;
+      color: white;
+      font-weight: 300;
+      margin: 10px 0;
+  }
+  
+  .what-npm p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 200;
+    padding: 10px 0;
+    
+  }
+  
+  .text-npm button {
+    background-color: rgb(40, 56, 72);
+    color: whitesmoke;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 8px 26px;
+    line-height: 1.5;
+  }
+  
+  .third {
+    padding: 40px 10px;
+  }
+  
+  .third h2 {
+    color: rgb(55, 61, 72);
+    font-size: 36px;
+    font-weight: 300;
+    margin: 20px 0;
+    padding: 4px 0;
+    text-align: center;
+  }
+  
+  .third p {
+    color: rgb(109, 121, 134);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .third h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(55, 61, 72);
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .third-itens {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    margin-left: 100px;
+    text-align: center;
+  }
+    
+  .third-itens img {
+    display: block;
+    margin: auto;
+  }
+  
+  .third-itens a {
+  color: red;
+  text-decoration: none;
+  font-weight: 400;
+  
+  }
+  
