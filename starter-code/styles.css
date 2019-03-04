@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.font-white {
+  color: white;
+}
+
+.center {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.display-block {
+  display: block;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  background-image: url('images/city-scape.svg');
+  height: 600px;
+}
+
+.header-content {
+  position: relative;
+  top: 10vh;
+  width: 350px;
+}
+
+.search-bar {
+  height: 50px;
+}
+
+.search-bar img {
+  padding: 10px;
+}
+
+.search-bar p {
+  margin: 15px;
+}
+
+.search {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(32, 101, 136);
+  padding: 5px;
+  margin: 10px auto;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.search-bar input {
+  width: 600px;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 7px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: 500;
+}
+
+.button-header {
+  background-color: rgb(240, 146, 51);
+}
+
+#collaboration {
+  background-color: rgb(39, 53, 71);
+  padding: 80px 0;
+}
+
+.button-collaboration {
+  background-color: rgb(203, 56, 55);
+}
+
+#what-is-npm {
+  background-image: url('images/forklift.svg');
+  background-size: cover;
+  height: 600px;
+}
+
+.what-is-npm {
+  padding-top: 200px;
+}
+
+.button-what-is-npm {
+  background-color: rgb(49, 68, 88);
+}
+
+#section3 h1,
+#section3 h2 {
+  color: rgb(83, 88, 98);
+}
+
+#section3 p {
+  color: rgb(135, 145, 156);
+  margin-top: 20px;
+}
+
+#section3 a {
+  color: rgb(208, 74, 73);
+  font-weight: bold;
+}
+
+.section3 {
+  padding-top: 80px;
+}
+
+.col {
+  float: left;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.col-2 {
+  width: 40%;
+  margin: 0 5%;
+}
+
+.col-3 {
+  width: 30%;
+}
