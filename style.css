@@ -1,0 +1,275 @@
+body{
+    margin: unset;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+.top-left{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.top-links {
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+.acronym{
+    margin: 10px;
+}
+
+header{  
+    background-image: url(./images/city-scape.svg);
+    height: 450px;
+    background-color: rgb(32, 101, 136); 
+}   
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.search-bar #logo{
+    padding-right: 10px;
+    height: 43px;
+    margin-left: 5px;
+}
+
+.search-bar input{
+    background-color: rgb(31, 82, 111);
+    width: 850px;
+    height: 30px;
+    padding-right: 50px;
+    margin-right: 5px;
+    padding-left: 7px;
+    border: 1px solid grey;
+}
+
+.search-bar button{
+    background-color: transparent;
+    height: 34px;
+    margin-right: 5px;
+    margin-left: -6px;
+    border: 1px solid grey;
+}
+
+.search-bar button img{
+    width: 15px;
+    height: 15px;
+}
+
+.search-bar a{
+    color: white;
+    opacity: 0.6;
+    margin-right: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-bar #bear-logo{
+    padding-right: 5px;
+    height: 40px;
+}
+
+.city-box {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    float: left;
+    padding-left: 150px;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city-box h2 {
+    font-size: 58px;
+    font-weight: normal;
+    padding-top: 15px;
+}
+
+.city-box p {
+    font-size: 20px;
+    width: 600px;
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+
+.city-box button {
+    background-color: rgb(240, 146, 51);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    border: none;
+}
+
+.city-box a {
+    text-decoration: none;
+    color: white;
+}
+
+#orgs{
+    background-color: rgb(39, 53, 71);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#orgs img{
+    width: 35%;
+    float: left;
+    margin-left: 10%
+}
+
+.orgs-box{
+    margin: 0 auto 0 5px;
+    width: 50%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orgs-box h2{
+    font-size: 30px;
+    font-weight: normal;
+    width: 50%;
+}
+
+#orgs ul{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#orgs button{
+    background-color: rgb(203, 56, 55);
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+#orgs a{
+    color: white;
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+
+#install{
+    background-image: url(./images/forklift.svg) ;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.install-text{
+    color: white;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.install-text h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.install-text p{
+    width: 375px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.install-text button{
+    background-color: rgb(49, 68, 88);
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.install-text a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#registry{
+    margin: 0 auto; 
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#registry h2, #registry p{
+    text-align: center;
+}
+
+#registry h2{
+    margin-top: 50px;
+    color: rgb(83, 88, 98);
+}
+
+#registry p{
+    margin-bottom: 50px;
+}
+
+#registry .grey{
+    color: rgb(135, 145, 156);
+}
+
+.bin, .flag, .backpack{
+    width: 33%;
+    display: block;
+    float: left;
+}
+
+.bin a{
+    color: rgb(208, 74, 73);
+}
+.clearfix{
+    clear: both;
+}
+
+#registry .bin, #registry .flag, #registry .backpack{
+    text-align: center;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+}
+
+#registry h4{
+    color: rgb(83, 88, 98);
+}
+
+.bin #p-bin{
+    width: 250px;
+}
+.flag #p-flag{
+    width: 260px;
+}
+.backpack #p-backpack{
+    width: 250px;
+}
