@@ -1,0 +1,295 @@
+body {
+  font-family: sans-serif, Georgia;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 0;
+  height: 40px;
+  line-height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgba(255,255,255,0.5);
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+  margin: 0 30px;
+}
+
+header {
+  background: rgb(32, 101, 136);
+  color: white;
+}
+
+.background-image {
+  background-image: url(images/city-scape.svg);
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.center-header {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  padding: 30px 0 0;
+}
+
+.top-header {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  left: 30px;
+  float: right;
+}
+
+.top-header li {
+  float: left;
+  position: relative;
+  top: 0;
+  right: -40px;
+}
+
+.col-left {
+  float: left;
+  width: 10%;
+}
+.col-middle-header {
+  width: 70%;
+  margin: 0 2%;
+}
+.col-right {
+  width: 15%;
+}
+
+.input {
+  height: 30px;
+  box-sizing: border-box;
+  background: rgb(31, 82, 111);
+  border: 2px solid rgba(255,255,255,0.2)
+}
+
+.img-resize {
+  width: auto; /* you can use % */
+  height: 30px;
+}
+
+.align-anchor{
+  position: relative;
+  top: -20px;
+  right: -20px;
+  height: 30px;
+}
+
+.align-ul {
+  position: relative;
+  left: -30px;
+}
+.anchor-header {
+  text-align: left;
+  text-decoration: none;
+  margin: auto;
+  font-size: 1.5em;
+  color: white;
+}
+
+.ul-div-align{
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.top-header li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.top-header-left {
+  float: left;
+  margin: 0 30px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.img-align {
+  vertical-align: middle;
+}
+
+.form-container {
+  width: 500px;
+  height: 30px;
+  background: rgb(31, 82, 111);
+  border: 1px solid rgb(31, 82, 111);
+}
+
+.dark-background {
+  background: rgb(39, 53, 71);
+  color: white;
+  height: 500px;
+}
+
+.orgs-container {
+  margin: 0 auto;
+  width: 60%;
+  padding: 100px 0;
+}
+
+.container-right {
+  float: right;
+  width: 40%;
+}
+
+#npmorgs li {
+  line-height: 1.5em;
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+#npmorgs a {
+  text-decoration: none;
+  color: white;
+}
+
+.button {
+  font: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+  background-color: rgb(203, 56, 55);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  position: relative;
+  top: 20px;
+}
+
+.line-space {
+  line-height: 4em;
+}
+
+.align-left-li {
+  padding-left: 15px;
+}
+
+.background-image2 {
+  background-image: url(images/forklift.svg);
+  background-repeat: no-repeat;
+  background-position: 0, 0;
+  background-size: cover;
+  height: 400px;
+  padding-top: 50px;
+  position: relative;
+  top: 0px;
+}
+
+.blue {
+  background-color: rgb(49, 68, 88);
+}
+.orange {
+  background-color: rgb(240, 146, 51);
+} 
+
+.center-install {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px 0;
+}
+
+.font-install {
+  color: white;
+}
+
+.font-about {
+  color: rgb(83, 88, 98);
+}
+
+#about p, h3{
+  color: rgb(135, 145, 156);
+}
+
+.service-box {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.col { float: left; }
+
+.col-3 { width: 30%; }
+
+.col-middle { margin: 50px 5%; }
+
+.center{
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#about a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+@media only screen and (max-width: 1100px) {
+  #bear {
+    display: none;
+  }
+}
