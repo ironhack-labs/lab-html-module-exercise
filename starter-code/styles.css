@@ -18,6 +18,10 @@ h6 {
   font-weight: 500;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 nav {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #c12127;
@@ -108,7 +112,7 @@ header {
 }
 
 .header-content {
-  max-width: 900px;
+  max-width: 1200px;
   padding-top: 70px;
   margin: 0 auto;
   height: 350px;
@@ -123,7 +127,52 @@ header {
   margin-bottom: 25px;
 }
 
+.collaborate {
+  background-color: rgb(39, 53, 71);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.collaborate-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.collaborate-image {
+  display: inline-block;
+  width: 50%;
+}
+
+.collaborate-info {
+  display: inline-block;
+  max-width: 49%;
+  padding-left: 60px;
+}
+
+.collaborate-info h1 {
+  margin-bottom: 20px;
+}
+
+.collaborate-info ul {
+  margin-bottom: 25px;
+}
+
+.collaborate-info li {
+  list-style-position: inside;
+  margin-bottom: 15px;
+}
+
+.collaborate-info p {
+  margin-top: 20px;
+}
+
+.collaborate-info a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
 .round-button {
+  display: inline-block;
   background-color: white;
   padding: 7px 20px;
   border-radius: 20px;
@@ -131,7 +180,12 @@ header {
   text-decoration: none;
 }
 
-.orange {
+.round-button.orange {
   color: #ffffff;
   background-color: #f09233;
+}
+
+.round-button.red {
+  color: #ffffff;
+  background-color: rgb(203, 56, 55);
 }
