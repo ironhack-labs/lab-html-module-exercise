@@ -1,12 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <style>
-            @media (min-width: 992px) { .Wide { display: initial } }
-            @media (max-width: 992px) and (min-width: 480px) { .Mid { display: initial } }
-            @media (max-width: 479px) {
-                .Narrow { display: initial }
-                #Jet { display: none }
-            }
+             .Wide { display: initial }             
         </style>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#245978" offset="0%"/>
