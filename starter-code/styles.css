@@ -58,7 +58,7 @@ header {
   background: rgb(32, 101, 136);
   padding: 10px;
   background: url('images/city-scape.svg');
-  background-size: auto auto;
+  background-size: cover;
 }
 
 .header-search .npm-logo {
@@ -150,7 +150,7 @@ header {
 }
 
 .collaborate-info h1 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .collaborate-info ul {
@@ -171,6 +171,31 @@ header {
   text-decoration: none;
 }
 
+.what-is {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background: rgb(32, 101, 136);
+  padding: 10px;
+  background: url('images/forklift.svg');
+  background-size: cover;
+  height: 450px;
+}
+
+.what-is-info {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 25%;
+}
+
+.what-is-info h1 {
+  margin-bottom: 30px;
+}
+
+.what-is-info p {
+  margin-bottom: 20px;
+}
+
 .round-button {
   display: inline-block;
   background-color: white;
@@ -188,4 +213,9 @@ header {
 .round-button.red {
   color: #ffffff;
   background-color: rgb(203, 56, 55);
+}
+
+.round-button.blue {
+  color: #ffffff;
+  background-color: rgb(49, 68, 88);
 }
