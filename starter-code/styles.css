@@ -196,6 +196,44 @@ header {
   margin-bottom: 20px;
 }
 
+.registry {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.registry-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.registry-heading {
+  margin-bottom: 20px;
+}
+
+.registry-heading h1 {
+  color: rgb(83, 88, 98);
+}
+
+.registry-heading p {
+  color: rgb(135, 145, 156);
+}
+
+.registry-columns div {
+  padding: 50px 70px;
+}
+
+.registry-columns h2 {
+  margin: 10px 0;
+}
+
+.col {
+  display: inline-block;
+}
+
+.col-3 {
+  width: 33%;
+}
+
 .round-button {
   display: inline-block;
   background-color: white;
