@@ -1,0 +1,139 @@
+body {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;  
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 5px 0 5px 0;
+    font-size: .875rem; 
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-left {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5px;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header {
+    color: white;
+    background-image: url(images/city-scape.svg);
+}
+
+.top {
+    padding: 5px 5px 5px 5px;
+    font-size: .875rem; 
+}
+
+.top img {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.top input {
+    border: 1px solid rgb(120, 156, 173);
+    display: inline-block;
+    height: 30px;
+    background: rgb(31, 82, 111);
+    padding: 5px;
+    font-size: .875rem; 
+    vertical-align: middle;
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bear {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+.section_content {
+    padding: 30px 200px 30px 200px; 
+}
+
+.build_description {
+    padding-right: 700px;
+}
+
+.build_description img {
+    float: right;
+}
+
+.collaboration {
+    background: rgb(39, 53, 71);
+    color: white;
+}
+
+.collab_img {
+    width: 400px;
+}
+
+.collab_desc {
+    float: right;
+}
+
+.what_is_npm {
+    color: white;
+    background-image: url(images/forklift.svg);
+}
+
+.what_content{
+    padding-right: 800px;
+}
+
+.text_centered {
+    text-align: center;
+}
+
+.logo_content {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button_build {
+    background-color: rgb(240, 146, 51);
+}
+
+.button_collab {
+    background-color: rgb(203, 56, 55);
+}
+
+.button_what {
+    background-color: rgb(49, 68, 88)
+}
