@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  background-color: white;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+h1 { font-size: 3rem; color:#fff; }
+
+.headerlogo { display: inline-block }
+.headerlogo .logo { width: 75px; }
+
+.valign {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.flex  { display: flex; }
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.mb-0 { padding-bottom: 0px!important; }
+.pl-50 { padding-left: 50px; }
+
+#intro {	
+	background-color: #206F9C;
+    background-image: url(../images/city-scape.svg);
+}
+
+.container { max-width: 960px; margin:0 auto; padding: 100px 0px;}
+#intro p { font-size: 1.25rem;}
+
+#what {	
+	position: relative;
+	background-color: #206F9C;
+    background-image: url(../images/forklift.svg);
+	background-size: cover;
+}
+
+#what .left { position: absolute; width:300px; height: 300px; }
+
+#collaboration { background-color: rgb(39, 53, 71); position: relative; }
+#collaboration .right { float: right; }
+#collaboration ul li { color: white; }
+
+#blocks { text-align: center;}
+#blocks h1 { color: rgb(83, 88, 98) }
+#blocks a {color: rgb(208, 74, 73); text-decoration: none; font-weight: 700; }
+
+.w-50 { width: 50%; }
+.white {color:#fff; }
+.btn { 
+	background-color: #f09233 !important; color: #fff; font-weight: 500;
+    border-radius: 20px;
+    padding: 7px 18px 8px 18px;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;}
+
+.btn2 { background-color: rgb(49, 68, 88)!important; }
+.btn3 { background-color: rgb(203, 56, 55)!important; }
+
+nav {
+  /* background-color: #C12127; */ 
+	color:#000;
+}
+
+nav a {
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+
+#topbar { color:#000; padding-top: .5rem; padding-bottom: .5rem;}
+.top-left { display: inline-block;}
+
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.one-third { width: 33%; float: left; }
