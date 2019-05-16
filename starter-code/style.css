@@ -139,14 +139,11 @@ h4{
     padding:15px 20px;
 }
 /*Header-top*/
-.header-top .logo{
-    
-}
 .header-top .search-container{
     position:absolute;
     display:inline-block;
     margin:0px 10px 11px 30px;
-    width:90%;
+    width:80%;
 }
 .header-top .search-container input[type=text]{
     font-size:1.2em;
@@ -155,7 +152,7 @@ h4{
     border:1px solid rgba(255,255,255,0.2);
     background-color: rgb(31, 82, 111);
     color:rgba(255,255,255,0.2);
-    width:80%;
+    width:95%;
     height:40px;
     outline:none;
 }
@@ -177,7 +174,7 @@ h4{
     line-height:1.4em;
 }
 .header-top .sign-up{
-    width:10%;
+    width:20%;
     position:relative;
     float:right;
     color:#ffffff;
