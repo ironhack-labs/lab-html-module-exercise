@@ -1,0 +1,247 @@
+/*Reset styles*/
+*{
+    padding:0;
+    margin:0;
+}
+/*Global Styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size:4em;
+    color:white;
+    font-weight:100;
+}
+h2{
+    font-size:2.8em;
+    color:white;
+    font-weight:100;
+    line-height:1.2em;
+    margin-bottom:40px;
+}
+h3{
+    font-size:2em;
+    color:rgb(83, 88, 98);
+    font-weight:600;
+    line-height:1.2em;
+    margin-bottom:20px;
+    text-align:center;
+}
+h4{
+    font-size:1.4em;
+    color:rgb(83, 88, 98);
+    font-weight:600;
+    line-height:1.6em;
+    margin-bottom:20px;
+    text-align:center;
+}
+.container{
+    margin:0 auto;
+    width:80%;
+}
+.col{
+    float:left;
+}
+.col-3{
+    width:30%;
+}
+.col-2{
+    width:50%;
+}
+.col-middle{
+    margin:auto 5%;
+}
+.clearfix{
+    clear:both;
+}
+.text{
+    font-size:1.4em;
+    color:white;
+    font-weight:100;
+    line-height:1.6em;
+}
+.featured-text{
+    font-size:1.4em;
+    color:rgb(83, 88, 98);
+    font-weight:100;
+    text-align:center;
+}
+.btn-1{
+    background-color:rgb(240, 146, 51);
+    border-radius: 25px;
+    color:white;
+    font-size:1.4em;
+    letter-spacing: 0.5px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    margin:40px auto;
+    padding:10px 25px;
+}
+.btn-2{
+    background-color:rgb(203, 56, 55);
+    border-radius: 25px;
+    color:white;
+    font-size:1.4em;
+    letter-spacing: 0.5px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    margin:40px auto;
+    padding:10px 25px;
+}
+.btn-3{
+    background-color:rgb(49, 68, 88);
+    border-radius: 25px;
+    color:white;
+    font-size:1.4em;
+    letter-spacing: 0.5px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    margin:40px auto;
+    padding:10px 25px;
+}
+/*Navigation*/
+.nav-bar{
+    background-color:#C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top:15px;
+    height:40px;
+}
+.nav-bar a{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.top-links{
+    display:inline-block;
+    float:right;
+    padding:0;
+    margin:0 20px 0 0;
+}
+.top-links li{
+    display:inline-block;
+    margin:0 10px;
+}
+.top-left{
+    display:inline-block;
+    float:left;
+}
+.top-left .heart{
+    padding:0 20px;
+}
+/*Header*/
+.header{
+    background: url('images/city-scape.svg') right bottom no-repeat rgb(32, 101, 136);
+    background-size:cover;
+    height:650px;
+    position:relative;
+    padding:15px 20px;
+}
+/*Header-top*/
+.header-top .search-container{
+    position:absolute;
+    display:inline-block;
+    margin:0px 10px 11px 30px;
+    width:80%;
+}
+.header-top .search-container input[type=text]{
+    font-size:1.2em;
+    padding:8px 14px;
+    margin:0;
+    border:1px solid rgba(255,255,255,0.2);
+    background-color: rgb(31, 82, 111);
+    color:rgba(255,255,255,0.2);
+    width:95%;
+    height:40px;
+    outline:none;
+}
+.header-top .search-container a{
+    margin:0;
+    background-color: rgb(31, 82, 111);
+    border:1px solid rgba(255,255,255,0.2);
+    color:rgba(255,255,255,0.2);
+    position:absolute;
+    margin-left:-1px;
+    padding:8px 14px;
+    height:40px;
+}
+.header-top .search-container a i{
+    position:relative;
+    top:4px;
+    font-size:1.4em;
+    color:white;
+    line-height:1.4em;
+}
+.header-top .sign-up{
+    width:20%;
+    position:relative;
+    float:right;
+    color:#ffffff;
+    font-size:1.2em;
+    font-weight:100;
+    text-decoration: none;
+    line-height:3em;
+    text-align:right;
+}
+.header-top .sign-up img{
+    vertical-align:middle;
+}
+/*Header-bottom*/
+.header-bottom{
+    margin:0 auto;
+    position:absolute;
+    left:10%;
+    bottom:10vh;
+}
+.header-bottom aside{
+    width:45%;
+    margin-top:40px;
+}
+/*Collaboration section*/
+#section-1{
+    background-color:rgb(39, 53, 71);
+    padding:100px 0;
+}
+.collaboration ul{
+    font-size:1.4em;
+    font-weight:100;
+    margin-left:25px;
+    color:white;
+    line-height:1.8em;
+    letter-spacing:0.5px;
+}
+.collaboration .link-info{
+    color:white;
+    text-decoration:none;
+    display:block;
+    margin-top:-20px;
+}
+.collaboration .link-info:hover{
+    text-decoration:underline;
+}
+/*What is a NPM*/
+#section-2{
+    background: url('images/forklift.svg') right bottom no-repeat rgb(32, 101, 136);
+    background-size:cover;
+    height:450px;
+    position:relative;
+    padding:100px 0;
+}
+/*What can you make*/
+#section-3{
+    padding:100px 0;
+}
+#section-3 article{
+    margin-top:40px;
+    text-align:center;
+}
+#section-3 article p{
+    color:rgb(135, 145, 156);
+    font-size:1.2em;
+}
+#section-3 article a{
+    color:rgb(208, 74, 73);
+    text-decoration:none;
+}
+
