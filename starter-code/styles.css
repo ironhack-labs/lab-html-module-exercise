@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'avenir';
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 50px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .top-left{
+    display: inline-block;
+}
+#fondo{
+    height: 500px;
+    background: url(images/city-scape.svg) no-repeat right;
+    background-color:rgb(32, 101, 136); 
+}
+#barraSuperior{
+    background-color: green;
+}
+.logotipo{
+    float: left;
+    padding: 10px;
+    width: 50px;
+    height: 35px;;
+}
+.logotipo.bear{
+    height: 50px;
+}
+.buscador{
+    background-color: rgb(31, 82, 111);
+    float: left;
+    margin: 10px 0 0 5px;
+    padding: 0 0 0 10px;
+    width: 70%;
+    height: 35px;
+    border: none;
+    position: relative;
+}
+.icono{
+    background-color: rgb(31, 82, 111);
+    float: left;
+    margin: 10px 0 10px 3px;
+    height: 15px;
+    padding: 10px;
+}
+.registro{
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 10px 0 10px;
+    color:white;
+}
+#informacion{
+    float: left;
+    margin: 8% 0 15% 15%;
+    color: white;
+    position: absolute;
+}
+.espacio{
+    padding-bottom: 15px;
+}
+.boton{
+    margin: 50px 0 50px 0px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.boton.informa{
+    background-color: rgb(240, 146, 51);
+}
+.boton.colabora{
+    background-color: rgb(203, 56, 55);
+    margin: 50px 0 0px 0px;
+}
+.boton.instala{
+    background-color: rgb(49, 68, 88);
+}
+#colaboracion{
+    height: 500px;
+    background: url(images/collaboration.svg) no-repeat left;
+    background-size: 70% 80%;
+    background-color:rgb(39, 53, 71); 
+}
+#informacion2{
+    float: right;
+    margin: 8% 0 15% 0;
+    color: white;
+    /*problema con la imagen y el texto que no se mantienen fijos*/
+}
+.seccion1{
+    margin-left: 9%;
+}
+.learn{
+    text-decoration: none;
+    color: white;
+}
+#instalacion{
+    height: 500px;
+    background:url(images/forklift.svg) no-repeat right;
+    background-size: cover;
+}
+#informacion3{
+    float: left;
+    margin: 8% 0 15% 15%;
+    color: white;
+    position: absolute;
+}
+#servicios{
+    background-color: white;
+    text-align: center;
+    padding: 5% 0 15% 0;
+}
+.espacioServicio{
+    color: rgb(83, 88, 98);
+    padding-bottom: 15px;
+}
+.textoServicio{
+    color: rgb(135, 145, 156);
+}
+#ventajas{
+    background-lor: blue;
+    heig: 500px;
+}
+article{
+    background-size: 32%;
+    display: inline-block;
+    padding: 5% 5% 0 5%;
+}
+.uno{
+    backgrou-color: #C12127;
+    color: rgb(135, 145, 156);
+}
+p a{
+    color:rgb(208, 74, 73);
+    text-decoration: none; 
+}
+.dos{
+    backgrou-color: green;
+    color: rgb(135, 145, 156);
+}
+/*por que el tercer article me queda unos px mas abajo 
+que los demas
+- tambien la imagen del header se queda pequeña y no se redimension
+-los textos se solapan con la imagen.. 
+*/
+.tres{
+    backgrou-color: yellow;
+    color: rgb(135, 145, 156);
+}
