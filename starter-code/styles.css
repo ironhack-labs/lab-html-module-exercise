@@ -1,0 +1,233 @@
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  height: 50px;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.header-top {
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  position: relative;
+  top: 20px;
+}
+
+.build {
+  width: 1000px;
+  margin: 0 auto;
+  height: 300px;
+  background-image: url(images/city-scape.svg);
+  background-position: right;
+}
+
+.logo {
+  height: 20px;
+  float: right;
+  padding: 0 5px 0 0;
+  margin: 2px auto auto auto;
+}
+
+.bear {
+  height: 25px;
+  float: right;
+}
+
+.bar {
+  float: right;
+}
+
+.search-bar {
+  width: 1150px;
+  background: rgb(31, 82, 111);
+  border: 5px;
+  height: 18px;
+}
+
+header {
+  background: rgb(32, 101, 136);
+  color: white;
+  padding: 10px;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+.search-button {
+  background: rgb(31, 82, 111);
+  border: 5px;
+  height: 20px;
+  margin: 0;
+}
+
+.header-links {
+  color: white;
+  text-decoration: none;
+}
+
+.orange-button {
+  background: rgb(240, 146, 51);
+  border: 5px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+header h1 {
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+}
+
+#section1 {
+  background: rgb(39, 53, 71);
+  color: white;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  height: 350px;
+}
+
+.section1 {
+  width: 750px;
+  margin: 0 auto;
+  float: right;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+.collaboration {
+  padding: 40px 20px 0 200px;
+  height: 250px;
+}
+
+.section1 h1 {
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size: 1.7em;
+  font-weight: 200;
+}
+
+.collaboration-list {
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+.red-button {
+  background: rgb(203, 56, 55);
+  border: 5px;
+  border-radius: 20px;
+  width: 120px;
+  height: 25px;
+  color: white;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+.collaboration-list li {
+  line-height: 2em;
+}
+
+.learn-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 500;
+}
+
+#section2 {
+  position: relative;
+  margin: 0 auto;   
+}
+
+.background {
+  background-image: url(images/forklift.svg);
+}
+
+.section2 {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 400px;
+  height: 100px;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+.section2 h1 {
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+/*to prevent overlapping of absolutely positioned div with the next section*/
+.spacer {
+  height: 300px;
+  background-image: url(images/forklift.svg);
+  margin: 0 auto;   
+}
+
+.grey-button {
+  background: rgb(49, 68, 88);
+  border: 5px;
+  border-radius: 20px;
+  width: 100px;
+  height: 25px;
+  color: white;
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+.section3text {
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+
+.section3text h1 {
+  color: rgb(83, 88, 98);
+}
+
+#section3 a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.div {
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+}
+
+#section3 h3 {
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+#section3 p {
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+
+#section3 {
+  text-align: center;
+  width: 1000px;
+  margin: 0 0 0 200px;
+}
+
+.fa {
+  color: white;
+}
