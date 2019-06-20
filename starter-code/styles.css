@@ -1,0 +1,117 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 10px;
+    height: 20px;
+  }
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+.acronym {
+    font-size: 10px;
+    float: left;
+    padding: 1px;
+}
+.heart {
+    float:left;
+}
+  .top-links {
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+    font-size: 10px;
+  }
+  
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+.img-bear-logo {
+    height:20px;
+    float: right;
+}
+
+.img-city-scape {
+    background-image: url("images/city-scape.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    
+    }
+
+.img-collaboration {
+    height: 100px;
+    position: right;
+
+}
+.img-forklift {
+    background-image:url(/Users/tommydilillo/Desktop/IRONHACK/lab-html-module-exercise-master/starter-code/images/forklift.svg);
+    background-position: 0 0;
+    background-size: cover;
+    height: 100px;
+    padding: 50px;
+    position: relative;
+}
+    
+.header-body {
+        display: box;
+        padding: 100px 20% 0 20%;
+        margin: 0 auto;
+        width: 600px;
+        color: white;
+    }
+
+.login {
+    float: right;
+    font: white;
+    font-family: sans-serif;
+    background-color: #2f2f99;
+    border: 0px;    
+
+
+}
+.npm-logo {
+    height: 20px;
+    float: left;
+}       
+.search-bar {
+    box-sizing: border-box;
+    Border: 4px;
+    float: left;
+}
+
+.section-background {
+    background-color: rgb(39, 53, 71);
+
+}
+.section-content {
+    margin: 0 auto;
+    color: white;
+}
+
+.sign-up-button {
+    display:box;
+    background-color: rgb(240, 146, 51);
+    font-family: sans-serif;
+    border: 0px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font: white;
+
+}
+.text-padding {
+    padding: 8px 0 8px 0;
+}
