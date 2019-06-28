@@ -1,0 +1,267 @@
+body {
+	font-family: 'Libre Franklin', sans-serif;
+
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 45px;
+
+  font-weight: 300;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+
+}
+
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+
+}
+
+header {
+	background-color: rgb(32, 101, 136);
+	color: white;
+	/*margin: 0 auto;*/
+	vertical-align: middle;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 500;
+}
+
+header p{
+	line-height: 25px;
+}
+
+#search {
+	
+	height: 60px;
+}
+
+.login{
+	padding-top: 15px;
+	padding-right: 15px;
+
+	float: left;
+
+}
+
+.search-bar {
+	float:left;
+	width: 80%;
+	height: 35px;
+	margin: 15px 15px 15px 0;
+	background-color: rgb(31, 82, 111);
+	border: 1px solid grey;
+}
+
+.logo{
+	max-width: 100px;
+	float:left;
+	padding: 15px;
+}
+
+.bear-logo {
+	max-width: 30px;
+	padding-top: 15px;
+}
+
+.clearfix { clear: both; }
+
+/*<------------------header ------------------->
+*/
+
+
+.build {
+	clear: both;
+	width: 60%;
+}
+
+.build p{
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+
+.build a {
+	text-decoration: none;
+	color:white;
+}
+
+.signup-btn {
+	background-color: orange;
+	padding: 5px 50px;
+	border-radius: 20px;
+
+}
+
+.city {
+	max-width: 700px;
+	float:right;
+}
+
+
+.blue-bar{
+	clear:both;
+	background-color: rgb(31, 82, 111);
+	height: 60px;
+	width: 100%;
+}
+
+/*<------------------section 1-------------------->
+*/
+
+.container{
+	width: 60%;
+	display:inline-block;
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.uno{
+	width: 100%;
+	clear:both;
+	color:white;
+	background-color: #343347;
+	vertical-align: middle;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+}
+
+.lista li{
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+
+.rojo {
+	background-color: red;
+
+}
+
+.uno a{
+	color: white;
+	text-decoration: none;
+}
+
+.info-uno{
+	float:right;
+}
+
+.collaboration{
+	max-width: 450px;
+¡/*	margin: 50px 0 50px 50px;
+*/}
+
+/*<------------------section 2-------------------->
+*/
+
+.container {
+
+}
+
+.dos {
+	background-color: #0362A7;
+	padding: 30px;
+}
+
+.lift {
+	max-width: 500px;
+	float:right;
+}
+
+
+.info-dos {
+	max-width: 400px;
+
+
+}
+
+.info-dos p{
+	color:white;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.dos a{
+	text-decoration: none;
+	color:white;
+}
+
+.install-btn {
+	background-color: #343347;
+	padding: 5px 50px;
+	border-radius: 20px;
+}
+
+
+/*<------------------section 3-------------------->
+*/
+
+.tres {
+	clear: both;
+	margin: 30px;
+
+}
+
+.description {
+	text-align: center;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.blocks {
+	color: grey;
+}
+
+.logos {
+	padding-right: 20px;
+	text-align: center;
+	margin-left: 28%;
+	font-size: 14px;
+}
+
+.find-logo {
+	float:left;
+	width: 20%;
+}
+
+.discover-logo {
+	float: left;
+	width: 20%;
+}
+
+.build-logo {
+	float: left;
+	width: 20%;
+}
+
+
+.info-logos {
+}
+
+
+
+
+
