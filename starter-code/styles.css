@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d4d68;
+  font: 400 16px "Open Sans", "OpenSans", sans-serif;
+  color: white;
+}
+
+.container {
+  padding: 9px 20px;
+}
+.container.central {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 3em;
+  
+}
+h2 {
+  font-size: 2.25em;
+}
+h3 {
+  color: rgb(83, 88, 98);
+  margin: 10px 0 -10px;
+  font-size: 1.25em;
+}
+
+.btn {
+  padding: 15px 36px;
+  border-radius: 30px;
+  font-size: 1.125em;
+  border: 0;
+  color: rgba(255,255,255,1);
+  outline: none;
+  cursor: pointer;
+  margin: 0px 0px 10px;
+}
+
+.link {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+  .link:hover {
+    color: rgba(255,255,255,1);
+  }
+
+.clearfix {
+  clear: both;
+}
+
+
+.nav-bar {
+  
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  font-size: .9em;
+}
+  .nav-bar-left, .nav-bar-links {
+    display: inline-block;
+  }
+  .nav-bar-links {
+    float: right;
+  }
+    .nav-bar-links li {
+      
+      display: inline-block;
+      margin: 0 10px;
+    }
+      .nav-bar-links li:last-child {
+        margin-right: 0px;
+      }
+
+
+.header {
+  background: #1d4d68 url("images/city-scape.svg") repeat-x;
+  height: 444px;
+}
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .btn {
+    background-color: #f09233;
+  }
+  .header-logo, .header-inputs, .header-list {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .header-logo {
+    flex: 0px 0px 125px;
+    width: 125px;
+    height: 48.61px;
+    margin-top: 10px;
+  }
+
+  .header-inputs {
+    display: flex;
+    flex: 1;
+    margin: 0 0 0 20px;
+  }
+    .header-inputs input:first-child {
+      vertical-align: middle;
+      flex: 1;
+      border: 0;
+      height: 46px;
+      padding: 0 10px;
+      border: 1px solid rgba(255,255,255,0.2);
+      font-size: 1em;
+      background-color: #20516e;
+      color: rgba(255,255,255,1);
+      box-sizing: border-box;
+    }
+    .header-inputs input:focus {
+      outline: none;
+    }
+    .header-inputs button {
+      flex: 0 0 48px;
+      background-color: #20516e;
+      border: 0;
+      cursor: pointer;
+      height: 46px;
+      padding: 14px;
+      vertical-align: middle;
+      box-sizing: border-box;
+      position: relative;
+      left: -6px;
+      color: rgba(255,255,255,1);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+      .header-inputs button svg {
+        width: 20px;
+      }
+
+    .header-inputs input::placeholder {
+      color:#757575;
+    } 
+
+  .header-list {
+    float: right;
+    flex: 0 0 170px;
+    margin-top: 12px;
+    text-align: right;
+  }
+    .header-list li {
+      display: inline-block;
+      vertical-align: middle;
+    }
+      .header-list img {
+        width: 33px;
+      }
+
+  .header-bottom h1 { 
+    margin: 20px 0px 0px 0px;
+  }
+    .header-bottom p {
+      width: 580px;
+      font-size: 1.125em;
+    }
+
+
+#npm-orgs {
+  background-color: rgb(39, 53, 71);
+}
+  #npm-orgs .btn {
+    background-color: rgb(203, 56, 55);
+  }
+  #npm-orgs img {
+    float: left;
+    width: 500px;
+  }
+
+  .npm-orgs-right {
+    float: right;
+    width: 45%;
+  }
+    .npm-orgs-right ul {
+      padding-left: 40px;
+    }
+      .npm-orgs-right li:nth-child(2n) {
+       margin: 10px 0;
+      }
+
+
+#npm-description {
+  background: url("images/forklift.svg");
+  background-size: cover;
+  padding: 50px 0;
+}
+  
+  #npm-description .btn {
+    background-color: rgb(49, 68, 88);
+  }
+  #npm-description p {
+    width: 370px;
+  }
+
+
+#npm-features {
+  text-align: center;
+  background-color: #fff;
+  color: rgb(135, 145, 156);
+}
+
+  #npm-features .link {
+    color: rgb(208, 74, 73);
+  }
+  #npm-features .link:hover {
+    text-decoration: underline;
+  }
+  #npm-features h2 {
+    color: rgb(83, 88, 98);
+  }
+  
+  #npm-features article {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-top: 20px;
+  }
+    #npm-features article p {
+      width: 250px;
+      margin: 20px auto 0px auto;
+    }
+
