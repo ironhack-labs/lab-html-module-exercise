@@ -1,0 +1,209 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav-bar{
+  height: 30px;
+  width: 100%;
+  background: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-bottom: 15px;
+}
+
+#nav-bar p{
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+#nav-links{
+  float: right;
+  list-style: none;
+}
+
+#nav-links li{
+  margin: 0 8px;
+  display: inline-block;
+}
+
+#nav-links a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.plain-link{
+  //color: #FFF;
+  text-decoration: none;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.container{
+  margin: 0px;
+  width: 100%;
+  height: 450px;
+}
+
+#sign-up .container{
+  color: white;
+  background: url("images/city-scape.svg");
+  background-size: cover;
+}
+
+#search-section{
+  display: inline-flex;
+  margin: 0px;
+}
+
+#npm-logo{
+  margin: 0px 15px;
+  float: left;
+  height: 30px;
+}
+
+#search{
+  display: inline;
+}
+
+.search-bar{
+  color: rgba(255,255,255,0.8);
+  border: 1px solid rgba(255,255,255,0.8);
+  background: rgb(31, 82, 111);
+}
+
+#search-section a{
+  margin: 3px 10px 0 10px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+
+#search-bar{
+  height: 26px;
+  box-sizing: border-box;
+  width: 1210px;
+}
+
+#search-bar::placeholder{
+  padding-left: 10px;
+}
+
+#search-btn{
+  position: relative;
+  top: 1px;
+  height: 25px;
+  box-sizing: border-box;
+}
+
+#bear-logo{
+  height: 30px;
+}
+
+.section-text{
+  width: 500px;
+  margin: 80px 0 0 300px;
+}
+
+.section-text p{
+  margin: 45px 0;
+}
+
+#sign-up-btn{
+  padding: 8px 18px;
+  border-radius: 15px;
+  border: 0px;
+  background: #F19421;
+}
+
+#sign-up-btn a{
+  color: white;
+}
+
+#npm-orgs .container{
+  background: rgb(39, 53, 71);
+  color: white;
+}
+
+#npm-orgs a{
+  text-decoration: none;
+  color: white;
+}
+
+#collab-img{
+  float: left;
+  width: 500px;
+  height: auto;
+  margin: 80px 0 0px 200px;
+}
+
+#npm-orgs .section-text{
+  float: left;
+  margin: 50px 200px 100px 100px;
+  line-height: 1.5em;
+}
+
+#npm-orgs-btn{
+  padding: 8px 18px;
+  border-radius: 15px;
+  border: 0px;
+  background: rgb(203, 56, 55);
+}
+
+#npm-orgs .container .section-text > a{
+  display: block;
+}
+
+#install .container{
+  padding-top: 5px;
+  color: white;
+  background: url("images/forklift.svg");
+  background-size: cover;
+}
+
+#install-btn{
+  padding: 8px 18px;
+  border-radius: 15px;
+  border: 0px;
+  background: rgb(49, 68, 88);
+}
+
+#install-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+#about{
+  margin-top: 5%;
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+
+.wrapper{
+  margin-left: 22%;
+}
+
+.col{
+  float:left
+}
+
+.col-3{
+  width: 20%;
+}
+
+.col-middle{
+  margin: 0 5%;
+}
+
+#about h1, .primary-text,.icon-text{
+  color:rgb(83, 88, 98);
+}
+
+.red{
+  color: rgb(208, 74, 73);
+}
+
+.thick{
+  font-weight: bold;
+}

@@ -4,9 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel = "stylesheet" href="index.css">
   <title>npm</title>
 </head>
 <body>
-  <!-- Your code goes here -->
+  <nav id = "nav-bar">
+    <p id = "nav-bar-icon">♥︎</p>
+    <p id = "nav-bar-text">Neophobe Plebeian Mumpsimus</p>
+    <ul id = "nav-links">
+      <li><a href ="#" target = "_blank">npm Enterprise</a></li>
+      <li><a href="#" target="_blank">features</a></li>
+      <li><a href="#" target="_blank">pricing</a></li>
+      <li><a href="#" target="_blank">documentation</a></li>
+      <li><a href="#" target="_blank">support</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+  <header id = "sign-up">
+    <div class="container">
+      <div id = "search-section">
+        <img id="npm-logo" src="images/npm-logo.png">
+        <form id="search" action="/search">
+          <input id = "search-bar" class="search-bar" type="text" size = "150" placeholder="find packages">
+          <button id = "search-btn" class="search-bar" type="submit">&#128269;</button>
+        </form>
+        <a id="sign-up-link" href="#" class="plain-link">sign up or login</a>
+        <img id="bear-logo" src="images/bear-logo.png">
+        <div class="clearfix"></div>
+      </div>
+      <div class = "section-text">
+        <h1>Build amazing things</h1>
+        <p>npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code — and assemble them in powerful new ways</p>
+        <button id="sign-up-btn" type="button"><a class="plain-link" href="#" target="_blank">Sign up for npm</a></button>
+      </div>
+    </div>
+  </header>
+  <section id = "npm-orgs">
+    <div class="container">
+      <img id = "collab-img" src = "images/collaboration.svg">
+      <div class="section-text">
+        <h1>npm Orgs is powerful collaboration — for free</h1>
+        <ul>
+          <li>Encourage code discovery and re-use within teams</li>
+          <li>Publish and control access to your own namespace</li>
+          <li>Manage public and private code with the same workflow</li>
+        </ul>
+        <button id= "npm-orgs-btn" type="button"><a href = "#" class="plain-link">Sign up for Orgs</a></button>
+        <a href = "#" class="plain-link">or Learn more about Orgs</a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <section id ="install">
+    <div class="container">
+      <div class="section-text">
+        <h1>What is npm?</h1>
+        <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+        <button id ="install-btn" type="button"><a href = "#" class="plain-link">Install npm</a></button>
+      </div>
+    </div>
+  </section>
+  <section id = "about">
+    <div class = "container">
+      <h1>What can you make with 700,000 building blocks?</h1>
+      <p class="primary-text">The npm registry hosts almost half a million of free, reusable code - the largest software registry in the world.</p>
+      <div class="wrapper">
+        <section class="col col-3">
+          <img class = "round-icons" src = "images/binoculars.svg">
+          <p class="thick icon-text">Find</p>
+          <p>
+            Libraries like <a href = "#" class = "plain-link thick red">jQuery</a>, <a href = "#" class = "plain-link thick red">Bootstrap</a>, <a href = "#" class = "plain-link thick red">React</a>, and <a href = "#" class = "plain-link thick red">Angular</a> and components from frameworrks such as <a href = "#" class = "plain-link thick red">Ember</a>.
+          </p>
+        </section>
+        <section class="col col-3 col-middle">
+          <img class="round-icons" src="images/mountain-flag.svg">
+          <p class="thick icon-text">Discover</p>
+          <p>
+            Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.
+          </p>
+        </section>
+        <section class="col col-3">
+          <img class="round-icons" src="images/backpack.svg">
+          <p class="thick icon-text">Build</p>
+          <p>
+           Assemble packages like building blocks to quickly develop awesome new projects.
+          </p>
+        </section>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
