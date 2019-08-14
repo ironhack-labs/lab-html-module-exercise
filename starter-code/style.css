@@ -1,0 +1,48 @@
+*{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+nav{
+    
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    background-color:#216081;
+}
+.ul-nav, .ul-hdr {
+    list-style-type: none;
+    display: flex;
+}
+.a-ul, .a-hdr{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px; 
+}
+ul{
+    padding-inline-start: 20px;
+}
+.input-nav{
+    background-color: rgb(27, 74, 101);
+}
+.srch-bar{
+    width: 60vw;
+}
+.hdr-1{    
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+
+}
+.hdr{
+    display: flex;
+}
+header{
+    background-image: url('./images/city-scape.svg');
+    height: 90vh;
+}
