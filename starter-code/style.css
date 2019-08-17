@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 *{
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open Sans;
 }
 body{
     margin: 0;
 }
-nav{
-    
+nav{    
     color: white;
     background-color: red;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+}
+.nig{
+    margin-left: 15px;
 }
 .nav{
     background-color:#216081;
@@ -22,27 +27,94 @@ nav{
 .a-ul, .a-hdr{
     text-decoration: none;
     color: #ffffff;
-    margin-right: 10px; 
+    margin-right: 15px; 
 }
 ul{
-    padding-inline-start: 20px;
+    padding-left: 0;
 }
 .input-nav{
     background-color: rgb(27, 74, 101);
+    height: 4vh;
 }
 .srch-bar{
-    width: 60vw;
+    width: 69vw;
+    height: 4vh;
 }
 .hdr-1{    
     display: flex;
     justify-content: space-between;
-    height: 3rem;
+    /* height: 3rem; */
+    padding-top: 9vh;
 
+}
+.hdr-srch{
+    width: 85vw;
+    display: flex;
+}
+.form-hdr{
+    margin-top: 1vh;
+    margin-left: 1vh; 
 }
 .hdr{
     display: flex;
 }
 header{
     background-image: url('./images/city-scape.svg');
-    height: 90vh;
+    height: 100vh;
+    color: #ffffff;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 100;
+}
+.hdr-cont{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    padding: 0 10vw 0 10vw;
+}
+.p-hdr{
+    margin: 0 0 5rem 0; 
+    padding: 0 20vw 0 0;
+}
+.btn-hdr{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 20px;
+    background-color: #EF9133;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+main{
+    background-color: #2A333D;
+    height: 93vh;
+}
+.ul-main{
+    list-style: circle;
+}
+.img-main{
+    height: 64vh;
+}
+.main-cont{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0 10% 8%;
+}
+.main-p{
+    color: #ffffff;
+    padding: 0 0 0 6%;
+}
+.main-h3{
+    font-size: 2.5rem;
+}
+.btn-main{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 20px;
+    background-color: red;
+    color: #ffffff;
+    font-size: 1.2rem;
 }
