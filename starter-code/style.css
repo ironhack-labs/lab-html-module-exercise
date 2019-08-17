@@ -118,3 +118,54 @@ main{
     color: #ffffff;
     font-size: 1.2rem;
 }
+section{
+    background-image: url('./images/forklift.svg');
+    height: 94vh;
+    color: #ffffff;
+}
+.section-h3{
+    margin-top: 0;
+    font-size: 2.5rem;   
+}
+.section{
+    padding: 15vh 65vh 0 10vh;
+}
+.btn-section{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 20px;
+    background-color: #2A333D;
+    color: #ffffff;
+    font-size: 1.2rem;   
+}
+footer{
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10vh;
+    color: #2A333D;
+}
+.footer{
+    display: flex;
+    padding: 10vh 0;
+}
+.ftr-h3{
+    font-size: 2.5rem;   
+    padding: 0 0 2vh 0;
+    margin: 0;
+}
+.ftr-subt{
+    font-size: 1.2rem;
+}
+.find, .discover, .build {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2vh;
+}
+.ftr-a{
+    color: red;
+    text-decoration: none;   
+}
