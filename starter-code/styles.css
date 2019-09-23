@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 2.8em;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+p {
+  padding: 20px 0 40px 0;
+}
+
+section {
+  height: 400px;
+  padding-top: 1.5em;
+}
+
+/* NAV BAR */
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 225, 0.8);
+  padding: 10px 0 10px 0;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 15px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.top-left {
+  float: left;
+  padding: 0;
+  margin: 0 15px 0 0;
+}
+
+.top-left a {
+  padding: 0 10px 0 10px;
+}
+
+.logo {
+  width: 30%;
+  display: inline-block;
+  padding: 25px 0 10px 0;
+  vertical-align: top;
+}
+
+.logo p {
+  text-align: center;
+  padding: 5px 15px 94px 15px;
+  color: grey;
+}
+
+.logo a {
+  color: #c12127;
+  text-decoration: none;
+}
+
+.logo img {
+  padding: 10px;
+}
+
+.search-icon {
+  background-color: rgb(31, 82, 111);
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  display: inline-block;
+}
+
+.search-icon i {
+  vertical-align: bottom;
+  line-height: 2;
+}
+
+#search-input {
+  width: 70%;
+  background-color: rgb(31, 82, 111);
+  border: none;
+  height: 35px;
+  display: inline-block;
+  position: relative;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.search-bar input {
+  flex-grow: 4;
+  background-color: #1f526f;
+  border: 2px solid rgb(64, 108, 132);
+  color: white;
+  margin: 0 2px 0 10px;
+}
+
+.search-bar img {
+  width: auto;
+  height: 35px;
+  margin: 0 0.5em 0 0.5em;
+}
+
+.search-bar a {
+  color: var(--fff);
+  text-decoration: none;
+  margin: 0 0.5em 0 0.5em;
+}
+
+/* TEXT STYLES */
+
+.lighter {
+  font-weight: lighter;
+}
+
+.small {
+  padding: 10px 0 10px 0 !important;
+}
+
+/* SECTIONS */
+
+/*  HEADER - ONE */
+
+header {
+  color: white;
+  height: 450px;
+  background-image: url("images/city scape.svg");
+  background-color: #215c7d;
+}
+
+header h1 {
+  padding: 20px 0 0 0;
+}
+header p {
+  font-size: 1em;
+}
+
+.header-button {
+  background-color: rgb(240, 146, 51);
+}
+
+.content-one {
+  width: 900px;
+  padding-top: 1em;
+  margin: 0 auto;
+}
+.content-one a {
+  color: white;
+}
+.content-one p {
+  width: 60%;
+}
+.content-one img {
+  float: right;
+}
+
+/* COLLABORATION - TWO */
+
+#two {
+  color: white;
+  background-color: rgb(39, 53, 71);
+  display: flex;
+  justify-content: center;
+}
+
+.two-svg {
+  float: left;
+  margin-top: 25px;
+}
+#two a {
+  color: white;
+}
+
+#two h2 {
+  padding: 0 0 0 20px;
+}
+
+.two-content {
+  max-width: 500px;
+  float: right;
+  margin: 1em;
+}
+
+.two-content ul {
+  padding: 20px 0 40px 40px;
+  line-height: 1.5em;
+}
+
+.two-content p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.collab-button {
+  color: white;
+  background-color: rgb(203, 56, 55);
+  margin-left: 20px;
+}
+
+#collaboration {
+  height: 275px;
+  display: block;
+}
+
+/* WHAT IS NPM? - THREE */
+
+#three {
+  background-size: cover;
+  /* background-image: url("images/city-scape.svg"); */
+  color: white;
+  background-color: #2481b7;
+}
+
+#three a {
+  background-color: rgb(31, 82, 111);
+}
+
+#three h2 {
+  margin-top: 24px;
+}
+
+.lnk-btn {
+  width: 150px;
+  padding: 14px 30px 14px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.content-three {
+  max-width: 900px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.content-three a {
+  color: var(--fff);
+  background-color: rgb(240, 146, 51);
+}
+
+.content-three img {
+  float: right;
+}
+
+/* BUILDING BLOCKS */
+
+.content-four {
+  margin: 0 auto;
+  text-align: center;
+  width: 900px;
+}
+
+.heading {
+  padding: 70px 0 0 0;
+  font-size: 32px;
+  color: #454545;
+  margin: inherit;
+}
