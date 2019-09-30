@@ -1,0 +1,289 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+  margin: 0;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-right {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-right li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  display: inline-block;
+  vertical-align: text-bottom;
+  padding-left: 10px;
+}
+
+header {
+  background-image: url(../images/city-scape.svg);
+}
+
+.search-group {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.search-left img {
+  width: 100px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.search-left {
+  display: inline-block;
+  width: 87%;
+  height: auto;
+}
+
+.search-left img, input {
+  display: inline-block;
+  height: auto;
+  margin: 5px 0;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.search-left input {
+  width: 93%;
+  height: 35px;
+  font-size: 125%;
+  background-color: rgb(32, 101, 136);
+  border: none;
+  outline: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+
+div.header-search {
+  background-color: rgb(32, 101, 136);
+  border: 1px solid #277ba5;
+  width: 87%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+i.bordered {
+  height: 35px;
+  border-left: 1px solid #277ba5;
+  display: inline-block;
+  width: 3%;
+  padding-left: 7px;
+}
+
+.fas {
+  vertical-align: middle;
+  color: rgba(255,255,255,0.8);
+}
+
+.search-right {
+  display: inline-block;
+  width: 10%;
+  margin-left: 0;
+}
+
+.search-right img {
+  width: 30px;
+}
+
+.search-right img, .words {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search-right .words, a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.main-header {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.content-header {
+  width: 35%;
+  margin: 160px auto 0 200px;;
+  color: #fff;
+}
+
+.content-header h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.content-header button {
+  background-color: rgb(240, 146, 51);
+  color: rgba(255,255,255,0.8);
+  width: 150px;
+  height: 40px;
+  border-radius: 25px; 
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s; 
+}
+
+.content-header button:hover {
+  background-color: rgb(237, 128, 18);
+  cursor: pointer;
+}
+
+.collab-section {
+  background-color: rgb(39, 53, 71);
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.collab-section img {
+  width: 500px;
+  height: auto;
+  margin: 100px 0 0 100px;
+}
+
+.collab-content {
+  width: 40%;
+  float: right;
+  margin: 100px 100px 0 0;
+  font-weight: lighter;
+}
+
+.collab-content button {
+  background-color: rgb(203, 56, 55);
+  color: rgba(255,255,255,0.8);
+  width: 150px;
+  height: 40px;
+  border-radius: 25px; 
+  border: none;
+  font-size: 18px;
+}
+
+.collab-content button:hover {
+  cursor: pointer;
+}
+
+.sign-btn {
+  margin: 10px 0 0 20px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 0;
+  width: 80%;
+}
+
+.collab-content a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.collab-content li {
+  line-height: 200%;
+}
+
+#section-two {
+  background-image: url(../images/forklift.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: 0;
+  padding-top: 10px;
+  position: relative;
+}
+
+.info-section {
+  position: absolute;
+  color: #fff;
+  width: 30%;
+  left: 200px;
+  top: 70px;
+  padding: 10px;
+}
+
+.heading-info {
+  font-size: 40px;
+}
+
+.info-section button {
+  background-color: rgb(49, 68, 88);
+  color: rgba(255,255,255,0.8);
+  width: 150px;
+  height: 40px;
+  border-radius: 25px; 
+  border: none;
+  font-size: 18px;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+.info-section button:hover {
+  background-color:rgb(64, 88, 114);
+  cursor: pointer; 
+}
+
+.info-section p {
+  line-height: 150%;
+}
+
+.top-make {
+  margin: 20px auto 0;
+  width: 80%;
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+.bottom-make {
+  margin: 0 auto 20px;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  color: rgb(135, 145, 156);
+}
+
+.bottom-make a {
+  color: rgb(208, 74, 73);
+}
+
+.bottom-make a:hover {
+  text-decoration: underline;
+}
+
+.find, .discover, .build {
+  width: 30%;
+  justify-content: space-between;
+}
+
