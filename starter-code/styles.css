@@ -1,0 +1,278 @@
+/* ------------------------- GENERAL ------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  padding: 10px 5px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* -------------------------- BASIC -------------------------- */
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.7rem 1rem;
+}
+
+section .content.spaced {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+
+/* -------------------------- LAYOUT ------------------------- */
+
+.col-left {
+  float: left;
+}
+
+.col-right {
+  float: right;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-3:nth-child(2) {
+  margin: 0 5%;
+}
+
+.col-container {
+  padding: 2rem 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/* -------------------------- LINKS --------------------------- */
+
+.link {
+  color: #cb3837;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link.white {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+/* -------------------------- BUTTONS ------------------------- */
+.button {
+  display: inline-block;
+  margin: 15px 5px 5px;
+  padding: 8px 25px 12px;
+  border-radius: 20px;
+  background: #f09233;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #e97e11;
+}
+
+.button.blue {
+  background-color: #34495e;
+}
+
+.button.blue:hover {
+  background-color: #253544;
+}
+
+.button.red {
+  background-color: #cb3837;
+}
+
+.button.red:hover {
+  background-color: #b82e2d;
+}
+
+
+/* --------------------------- NAV ---------------------------- */
+nav {
+  padding: 15px 30px;
+  background-color: #C12127;
+  color: rgb(255,255,255);
+}
+
+nav a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* --------------------------- HEADER -------------------------- */
+
+header {
+  padding: 15px;
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/city-scape.svg);
+  color: #fff;
+}
+
+header .top-bar {
+  display: flex;
+  height: 3rem;
+  padding: 10px;
+}
+
+header .top-bar .element {
+  height: 100%;
+  padding: 0 5px;
+}
+
+header .top-bar form {
+  flex: 1;
+  display: flex;
+}
+
+header .top-bar form input {
+  flex: 1;
+  padding: 16px;
+  font-size: 17px;
+}
+
+header .top-bar form button {
+  width: 3rem;
+}
+
+header .top-bar .input {
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgb(31, 82, 111);
+}
+
+header .top-bar p {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  color: rgb(255,255,255);
+}
+
+header .top-bar p a {
+  margin: 0 .3rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+header .column-header {
+  width: 56%;
+  margin: 50px 0 100px;
+}
+
+header .column-header p {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+header .column-header .button {
+  margin-top: 25px;
+}
+
+/* ----------------------- 'COLLABORATION-BOX' SECTION ---------------------- */
+
+.collaboration-box {
+  background-color: rgb(39, 53, 71);
+  color: #fff;
+}
+
+.collaboration-box .col-right {
+  padding-left: 3rem;
+  box-sizing: border-box;
+}
+
+.collaboration-box ul {
+  margin-left: 1.8rem;
+  margin-top: 10px;
+}
+
+.collaboration-box ul li {
+  margin-bottom: 1rem;
+}
+
+.collaboration-box .button {
+  margin-bottom: 0;
+}
+
+/* --------------------- 'WHAT-IS-BOX' SECTION --------------------- */
+
+.what-is-box {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  color: #fff;
+}
+
+
+/* --------------------- 'BUILDING-BOX' SECTION -------------------- */
+
+.building-box .col-3 {
+  padding: 0 1.2rem;
+  box-sizing: border-box;
+}
+
+.building-box .col-3 h3 {
+  padding-bottom: 0;
+}
