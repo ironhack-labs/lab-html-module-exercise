@@ -4,9 +4,114 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>npm</title>
 </head>
 <body>
-  <!-- Your code goes here -->
+  <header>
+    <div>
+      <div class="headerlinks">
+        <nav>
+          <div class="top-left"> <!--What do I do with this class????-->
+            <a class = "heart" href="#">♥︎</a>
+            <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+          </div>
+          <ul class="top-links">
+            <li><a href="#">npm Enterprise</a></li>
+            <li><a href="#">features</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a href="#">documentation</a></li>
+            <li><a href="#">support</a></li>
+          </ul>
+        </nav>
+    </div>
+  
+      <div class="lower-header">
+            <img src="images/npm-logo.png" id="lower-header-image1" alt="npm logo" />
+            <form method="POST" class="formclass">
+            <label for="search"></label>
+            <input type="text" placeholder="Search packages"> 
+            <button id="button-color">🔍</button>
+            </form>
+
+        <ul class="lower-header-ul-styles">
+            <li><a href="#">sign up</a> or <a href="#">log in</a></li>
+            <li><img src="images/bear-logo.png" id="lower-header-image2" alt="bear logo" /></li>
+        </ul>  
+     </div>
+
+    <div class="headerdiv"> <!-- the elements inside might need to be in seperate divs/container/section-->
+      <article>
+        <h1>Build amazing things</h1>
+        <p>npm is the package manager for Javascript and the world's largest software registry. Discover packages of reusable code -- and assemble them in powerful new ways.</p>
+        <a href="#">Sign up for npm</a>
+      </article>
+    </div>
+  </header>
+
+  <section id="section1">
+    <div class=section-flex>
+      <div id="collab-pic">
+        <img src="images/collaboration.svg" alt="collaboration" />
+      </div>
+      <article>
+        <h2>npm Orgs is powerful collaboration -- for free</h2>
+        <ul>
+          <li>Encourage code discovery and re-use within teams</li>
+          <li>Publish and control access to your own namespace</li>
+          <li>Manage public and private code with the same workflow</li>
+        </ul>
+        
+          <a href="#" class="section1-button"> Sign up for Orgs</a>
+        
+        <p>or, <a href="#">Learn more about Orgs</a></p>
+      </article>  
+    </div>
+</section> <!--SECTION 1 END-->
+
+
+  <section id="section2">
+    <article class="container">
+      <h3>What is npm?</h3>
+      <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+      <a href="#" id="link-btn">Install npm</a>
+    </article>
+  </section> <!--SECTION 2 END-->
+
+
+  <section id="section3">
+    <h2>What can you make with 475,000 building blocks?</h2>
+    <p class="grey-text" id="text-align">
+      The npm registry hosts almost half a million packages of free, reusable code -- the largest software registry in the world. 
+    </p>
+    <div>
+
+      <article> <!-- you might need a class here-->
+      <img src="images/binoculars.svg" alt="binoculars" />
+      <h4> Find</h4>
+      <p class="grey-text">
+        Libraries like <a href="#">JQuery</a>, <a href="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>. <!-- you'll probably have to create a class like #section3 .whateverclassname {}-->
+      </p>
+      </article>
+
+      <article> <!-- you might need a class here-->
+        <img src="images/mountain-flag.svg" alt="flag" />
+        <h4>Discover</h4>
+        <p class="grey-text">
+          Packages for mobile, IoT, front end, back end, robotics...everything you need to start building amazing things. 
+        </p>
+      </article>
+
+      <article> <!-- you might need a class here-->
+          <img src="images/backpack.svg" class="???" alt="backpack" />
+          <h4>Build</h4>
+          <p class="grey-text">
+            Assemble packages like building blocks to quickly develop awesome new projects. 
+          </p>
+      </article>
+    </div>
+
+  
+  </section> <!--SECTION 3 END-->
 </body>
 </html>
