@@ -1,0 +1,257 @@
+/* General CSS */
+
+* {
+  font-family: "Open Sans", OpenSans, sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+li {
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+/* Nav CSS */
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 100%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Header Section CSS */
+
+.title-bar {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  display: flex;
+  background-color: rgb(32, 101, 136);
+  justify-content: space-between;
+  align-items: center;
+}
+
+#npm-logo {
+  height: 50px;
+}
+
+.search {
+  height: 50px;
+  width: 70%;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.sign-up {
+  text-decoration: none;
+}
+
+#bear-logo {
+  height: 50px;
+}
+
+.build {
+  background-image: url("./starter-code/images/city-scape.svg");
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  /* padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; */
+  display: flex;
+  align-items: center;
+}
+
+.buildContent {
+  margin-top: 30px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  width: 35%;
+}
+
+.buildContent p {
+  padding-bottom: 20px;
+}
+.orange-button {
+  background-color: rgb(240, 146, 51);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+/* Collaboration Section */
+
+.collaboration {
+  background-color: rgb(39, 53, 71);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  margin-top: -78px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+.collab-image {
+  width: 25%;
+}
+
+.collab-content {
+  width: 400px;
+  margin-left: 60px;
+}
+
+.collab-content h2 {
+  margin-left: 25px;
+}
+
+.collab-content > a {
+  margin-left: 25px;
+}
+
+.collab-content p {
+  margin-left: 25px;
+}
+
+.orgs-button {
+    background-color: rgb(203, 56, 55);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 0px;
+}
+
+
+/* What is npm Section */
+.what {
+  background: url("./starter-code/images/forklift.svg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.what-copy {
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  width: 25%;
+  padding-left: 15%;
+  padding-top: 15%;
+}
+
+.install-button {
+    background-color: rgb(49, 68, 88);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 0px;
+}
+
+/* Building blocks section */
+.blocks {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.blocks-text {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.blocks-text h2 {
+  color: rgb(83, 88, 98);
+  margin-bottom: 0;
+}
+
+.blocks-text p {
+  color: rgb(135, 145, 156);
+}
+
+.icons {
+  justify-content: center;
+  display: flex;
+}
+
+.width {
+  width: 250px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.icons h3 {
+  color: rgb(135, 145, 156);
+}
+
+.icons p {
+  color: rgb(135, 145, 156);
+}
+
+.blocks a {
+  color: rgb(208, 74, 73);
+}
