@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  min-width: 1100px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.nav-bar-left {
+  float: left;
+}
+
+.nav-bar-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.nav-bar-links li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.initials {
+  padding: 0 0 0 3px;
+}
+
+.heart {
+  padding: 0 0 0 8px;
+}
+
+header {
+  background-image: url("images/city-scape.svg");
+  background-position:0;
+  background-color: rgb(32, 101, 136);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:650px;
+  position: relative;
+  min-width:1100px ;
+  width: 100%;
+}
+
+.search {
+  margin: 0 auto;
+}
+
+.search-text {
+  padding: 5px 0px 0 14px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  float: right;
+}
+
+.search-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.bear {
+  height: 35px;
+  float: right;
+  margin: auto 20px 15px;
+}
+
+.logo {
+  float: left;
+  height: 35px;
+  padding:4px 4px 12px 12px;
+}
+
+.search input {
+   background-color: rgb(31, 82, 111);
+   height: 25px;
+   margin: 4px;
+   font-size: 12px;
+   position: relative;
+   width: 68%;
+   border: white;
+   margin-top: 7px;
+   padding-left: 14px;
+   border: 1px solid rgb(99, 164, 202);
+   position: relative;
+}
+
+.search button {
+  padding: 5px;
+  background:rgb(31, 82, 111);
+  color: white;
+  border: 1px solid rgb(99, 164, 202);
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.header-text {
+  width: 800px;
+  margin: 0 auto;
+  color: white;
+  font-weight: 200;
+  padding: 200px 0;
+}
+
+.header-text p {
+  padding: 20px 0 0;
+}
+
+.header-text h1 {
+  font-weight: 200;
+}
+
+.sign-up-button {
+  display: inline-block;
+  background-color: rgb(240, 146, 51);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  width: 20%;
+  font-size: 18px;
+  height: 32px;
+  margin: 40px 0 0;
+}
+
+#intro h2 {
+  font-weight: 200;
+}
+
+#intro {
+  margin: 0 auto;
+  padding: 100px 0;
+  background-color: rgb(39, 53, 71);
+  height:350px;
+  font-weight: 200;
+  display: block;
+  clear: both;
+  min-width:1100px;
+  width: 100%;
+ }
+
+ #intro ul {
+  line-height: 3em;
+ }
+
+#intro img {
+  height: 300px;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.intro-text {
+  float: left;
+  color: white;
+  margin: 0 auto;
+  padding:15px;
+  font-weight: 200;
+  position: relative;
+}
+
+.intro-sign-up {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  width: 70%;
+  font-size: 18px;
+  height: 32px;
+  margin: 40px 0 15px;
+  display: inline-block;
+}
+
+.intro-text a {
+  color: white;
+  text-decoration-line: none;
+}
+
+#what {
+  background-image: url("images/forklift.svg");
+  background-position:0 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:500px;
+  position: relative;
+  min-width: 1100px;
+  width: 100%;
+}
+
+.what-text {
+  color: white;
+  padding: 150px;
+  font-weight: 200;
+}
+
+.what-text h2 {
+  font-weight: 300;
+  padding: 0 0 30px;
+}
+
+.install {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  height: 32px;
+  margin: 40px 0 15px;
+  width: 150px;
+}
+
+#end {
+  margin: 0 auto;
+  font-weight: 200;
+  background: white;
+  min-width: 1100px;
+  width: 100%;
+}
+
+.end-text {
+  text-align: center;
+  margin: 25px auto 60px;
+  line-height: 3em;
+}
+
+.end-text h2 {
+  color: rgb(83, 88, 98);
+  font-weight: 200;
+}
+
+.end-text p {
+  color: rgb(83, 88, 98);
+}
+
+.col {
+  float:left;
+} 
+.col-3 {
+  width:30%;
+  padding-bottom: 50px;
+}
+
+.col-middle {
+  margin:0 5%;
+}
+
+.end-bottom {
+  text-align: center;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.end-bottom h3 {
+  color: rgb(83, 88, 98);
+}
+
+.end-bottom p {
+  color: rgb(135, 145, 156);
+}
+
+.end-bottom a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+  font-weight: bold;
+}
