@@ -21,7 +21,7 @@ In this exercise you will be able to apply all the concepts you've just learned,
 
 ### Introduction
 
-In this exercise, you will clone one of the previous versions of the landing page of **NPM website**.  NPM is a package manager for NodeJS, and you will be using it heavily throughout this course.
+In this exercise, you will clone clode gdah us versions of the landing page of **NPM website**.  NPM is a package manager for NodeJS, and you will be using it heavily throughout this course.
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_66957e0bffb5e59c6b1713c489323168.png)
 
