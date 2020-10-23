@@ -33,7 +33,7 @@ We will devide our work into two parts:
 - part I - create web page with no styles, just add HTML elements
 - part II - add styles and make it perfect 😌
 
-So let's get started!
+get ready and apni kursi pakad lo or let's start
 
 
 ### Starter Code
