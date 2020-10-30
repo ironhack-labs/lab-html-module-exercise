@@ -4,20 +4,17 @@
 
 ## Learning Goals
 
-In this exercise you will be able to apply all the concepts you've just learned, such as:
+In this exercise you will be able to apply all the concepts which you've just learned, such as:
 
-- using different HTML tags,
-- structuring your HTML page with **block elements**, and
-- adding content to your HTML page with **inline elements**.
+- Using different HTML tags.
+- Structuring your HTML page with **block elements**.
+- Adding content to your HTML page with **inline elements**.
 
 ## Getting started
 
 - Click on the button "Clone or download" and a window will appear:
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_e1d537a0f12e005606bc1fae2277bb70.jpeg)
 - **Click the button "Download as zip"**
-
-
-## Instructions
 
 ### Introduction
 
