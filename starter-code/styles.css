@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #c12127;
+    color: rgba(255, 255, 255, 0.8);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+nav .nav-brand .heart {
+    padding-right: 10px;
+    padding-left: 3px;
+}
+
+.top-links {
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+
+/* header */
+header {
+    color: white;
+    background-color: #215c7d;
+    padding-bottom: 10px;
+    background-image: url(/lab-html-module-exercise/starter-code/images/bg_building.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:calc(100% - 200px) calc(100% - -130px);
+    height: 570px;
+}
+
+header  .header_container {
+    width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 1rem;
+
+}
+
+header .header_container .seachbar-and-logo{
+    width: 85%;
+    display: flex;
+    align-items: center;
+
+}
+header .header_container  img {
+    width: 100px;
+    margin-left: 1rem;
+
+}
+
+header .header_container .seachbar-and-logo input {
+    width: 100%;
+    padding: 0.46rem 0;
+    outline: none;
+    border: 1px solid #ffffff96;
+    background-color: #1F516E;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+
+}
+
+.search-icon{
+    padding: 0.5rem 1rem;
+    background-color: #1F516E;
+    font-size: 1.3rem;
+    color: #fff;
+    border: 1px solid #ffffff96;
+    cursor: pointer;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15%;
+}
+
+.header-btn .bear-logo {
+    width: 50px;
+    padding-right: 1rem;
+}
+
+.header-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.header-btn span {
+    margin-left: 5px;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 20vh;
+    max-width:590px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.header-content .header-heading{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.header-content .header-para {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.sign-btn{
+    padding: 0.7rem 1rem;
+    width: 180px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 2rem;
+    border: 0.2px solid #fff;
+    margin-top: 1rem;
+}
+
+#section-npm-Orgs{
+    background-color: #273547;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-npm-Orgs img {
+    
+   max-width:600px;
+    margin: 0 auto;
+}
+
+.npm-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.npm-Orgs-heading{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 4rem;
+}
+
+.npm-list{
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.npm-list li{
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+.npm-btn{
+    background-color: red;
+    border: none;
+}
+
+ span{
+    color: #fff;
+    padding-right: 9px;
+}
+
+
+.npm-Org-Learn-more-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+
+#what-is-npm{
+    background-image: url(/lab-html-module-exercise/starter-code/images/buildings-and-billboard.png);
+    height: 500px;
+    background-size: cover;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+}
+
+.overlay{
+    background-color:#2381b7a5;
+    z-index: 100;
+    height: 500px;
+    display: flex;
+}
+
+.bear-bg{
+    height: 400px;
+    background-image:url(/lab-html-module-exercise/starter-code/images/bear-bg-removebg-preview.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    width: 50%;
+}
+
+.npm-text-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.npm-heading{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.npm-para{
+    color: #fff;
+    font-size: 1.2rem;
+    max-width: 340px;
+}
+
+.npm-gray-btn{
+    background-color: #666666;
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 2.5rem;
+    border: 0px solid #ffff;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+#npm-registry {
+    background-color: #ffffffc7;
+}
+
+.npm-registry-heading , .npm-register-para{
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+.npm-registry-heading{
+    color: #3e3d3d;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.npm-register-para{
+    color: gray;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+.npm-card-container{
+ width: 100%;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.card{
+    height: 250px;
+    width:33% ;
+    /* border: 0.1px solid #4c4b4bcf; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4px;
+    margin-bottom: 4rem;
+}
+
+.card p {
+    max-width: 60%;
+}
+
+.card p a{
+    text-decoration: none;
+    color: red;
+    text-transform: capitalize;
+}
